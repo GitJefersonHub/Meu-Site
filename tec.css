@@ -3,14 +3,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  justify-content: space-between;
   background-color: rgb(248, 44, 44);
   padding: 0px;
 }
 .logo {
   color: white;
   font-size: 20px;
-  font-weight: bold;
+  margin-left: 20px;
+  margin-right: 20px; 
 }
 .menu {
   list-style: none;

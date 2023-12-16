@@ -1,8 +1,8 @@
 /* Estilos para o menu de navegação */
 .navbar {
   display: flex;
-  
-  justify-content:  space-between;
+  align-items: center;
+  justify-content: space-between;
   background-color: rgb(248, 44, 44);
   padding: 0px;
 }
