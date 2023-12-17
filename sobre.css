@@ -1,7 +1,7 @@
 /* Estilos para o menu de navegação */
 .navbar {
   display: flex;
-Aling-items: center;  justify-content: space-between;
+  Aling-items: center;         justify-content: space-between;
   background-color: rgb(248, 44, 44);
   padding: 0px;
 }
