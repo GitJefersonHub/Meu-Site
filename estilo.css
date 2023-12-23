@@ -71,28 +71,28 @@ p3{
   margin: auto;
   text-align:left;
   text-indent: 70px;
-  font-size: 18px;
+  font-size: 22px;
   color: gold;
 }
 .paragrafotec {
   margin: auto;
   text-align:left;
   text-indent: 70px;
-  font-size: 18px;
+  font-size: 22px;
   color: silver;
 }
 .paragrafoser {
   margin: auto;
   text-align:left;
   text-indent: 70px;
-  font-size: 18px;
+  font-size: 22px;
   color: black;
 }
 .paragrafopro {
   margin: auto;
   text-align:left;
   text-indent: 70px;
-  font-size: 18px;
+  font-size: 22px;
   color: red;
 }
 
@@ -141,6 +141,7 @@ p3{
   width: 48%;
   text-align: left
 }
+
 .linha {
   width: 100%;
   margin: auto;
@@ -166,6 +167,7 @@ p3{
   width: 100%;
   text-align: left;
 }
+
 .linha {
   width: 100%;
   margin: auto;
@@ -188,6 +190,22 @@ p3{
   font-size: 22px;
   width: 100%;
   text-align: none;
+  
+}
+
+/* Estilos para BOTÃO */
+.btn-estilizado {
+  text-align: right;
+  background-color: red; /* Cor de fundo do botão */
+  border: none; /* Sem bordas */
+  color: white; /* Cor do texto */
+  padding: 15px 32px; /* Espaçamento interno */
+  text-align: center; /* Alinhamento do texto */
+  text-decoration: none; /* Sem sublinhado */
+  display: inline-block;
+  font-size: 36px; /* Tamanho da fonte */
+  margin: 4px 2px;
+  cursor: pointer; /* Cursor de mão ao passar o mouse */
 }
 
 /* Estilos para RODAPÉ */
