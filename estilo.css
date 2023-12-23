@@ -1,0 +1,218 @@
+/* Estilos para o menu de navegação */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(248, 44, 44);
+  padding: 0px;
+}
+.logo {
+  color: white;
+  font-size: 20px;
+  font-style:italic;
+  margin-left: 20px;
+  margin-right: 20px; 
+}
+.menu {
+  list-style: none;
+  margin: 10px;
+  padding: 0;
+  display: flex;
+}
+.menu li { 
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.menu li a {
+  text-decoration: none;
+  color: yellow;
+}
+
+/* Estilos para o BODY */
+body.sobre {
+  background-color: rgb(8, 3, 43);
+}
+body.tec {
+  background-color: black;
+}
+body.ser {
+  background-color: silver;
+}
+body.pro {
+  background-color: gold;
+}
+
+/* Estilos para FONTES */
+.font {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+  font-size: 30px;
+}
+h2{
+  font-size: 26px;
+}
+h3{
+  font-size: 22px;
+}
+
+/* Estilos para PARAGRAFOS */
+p2{
+  font-size: 30px;
+  margin: 60px;
+  color: gold;
+}
+p3{
+  font-size: 30px;
+  margin: 60px;
+  color: black;
+}
+.paragrafosobre {
+  margin: auto;
+  text-align:left;
+  text-indent: 70px;
+  font-size: 22px;
+  color: gold;
+}
+.paragrafotec {
+  margin: auto;
+  text-align:left;
+  text-indent: 70px;
+  font-size: 22px;
+  color: silver;
+}
+.paragrafoser {
+  margin: auto;
+  text-align:left;
+  text-indent: 70px;
+  font-size: 22px;
+  color: black;
+}
+.paragrafopro {
+  margin: auto;
+  text-align:left;
+  text-indent: 70px;
+  font-size: 22px;
+  color: red;
+}
+
+/* Estilos para IMAGENS */
+.sobre {
+  background-image: url('d:\Jef.  08 11 23\Programação\HTML CSS\Meu Site 22 12 23\img\Jft.png');
+  .sobre {
+  display: block;
+  margin: auto;
+  width: 630px;
+  height: 700px;   
+  }
+}
+.ser {
+  background-image: url('d:\Jef.  08 11 23\Programação\HTML CSS\Meu Site 22 12 23\img\site2.png');
+  .ser {
+  display: block;
+  margin: auto;
+  width: 580px;
+  height: 400px;
+  }
+}
+
+/* Estilos para COLUNAS */
+/* grid 100%*/
+.linha {
+  width: 100%;
+  margin: auto;
+  overflow: auto;
+  padding: 5px 0;
+}
+.colunatec {
+  margin: auto;
+  padding: 0 0px;
+  float: left;
+  color: white;
+}
+.coltec1 {
+  font-size: 22px;
+  width: 48%;
+  text-align: left;
+  color: white;
+}
+.coltec2 {
+  font-size: 22px;
+  width: 48%;
+  text-align: left
+}
+
+.linha {
+  width: 100%;
+  margin: auto;
+  overflow: auto;
+  padding: 5px 0;
+}
+.colunaser {
+  margin: auto;
+  padding: 0 0px;
+  float: left;
+  color: blue;
+}
+.colser1 {
+  margin: auto;
+  font-size: 22px;
+  width: 100%;
+  text-align: left;
+  color: blue;
+}
+.colser2 {
+  margin: auto;
+  font-size: 22px;
+  width: 100%;
+  text-align: left;
+}
+
+.linha {
+  width: 100%;
+  margin: auto;
+  overflow: auto;
+  padding: 5px 0;
+}
+.colunapro {
+  margin: auto;
+  padding: 0 0px;
+  float: none;
+  color: black;
+}
+.colpro1 {
+  font-size: 22px;
+  width: 100%;
+  text-align: none;
+  color: black;
+}
+.colpro2 {
+  font-size: 22px;
+  width: 100%;
+  text-align: none;
+  
+}
+
+/* Estilos para BOTÃO */
+.btn-estilizado {
+  text-align: right;
+  background-color: red; /* Cor de fundo do botão */
+  border: none; /* Sem bordas */
+  color: white; /* Cor do texto */
+  padding: 15px 32px; /* Espaçamento interno */
+  text-align: center; /* Alinhamento do texto */
+  text-decoration: none; /* Sem sublinhado */
+  display: inline-block;
+  font-size: 36px; /* Tamanho da fonte */
+  margin: 4px 2px;
+  cursor: pointer; /* Cursor de mão ao passar o mouse */
+}
+
+/* Estilos para RODAPÉ */
+footer {
+  background-color: blue;
+  padding: 6px;
+  text-align: center;
+  color: white;
+  font-size: 10px;
+} 
