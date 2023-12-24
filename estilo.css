@@ -71,28 +71,28 @@ p3{
   margin: 1px;
   text-align: justify;
   text-indent: 70px;
-  font-size: 20px;
+  font-size: 18px;
   color: gold;
 }
 .paragrafotec {
   margin: 1px;
   text-align: justify;
   text-indent: 70px;
-  font-size: 20px;
+  font-size: 18px;
   color: silver;
 }
 .paragrafoser {
   margin: 1px;
   text-align: justify;
   text-indent: 70px;
-  font-size: 20px;
+  font-size: 18px;
   color: black;
 }
 .paragrafopro {
   margin: 1px;
   text-align: justify;
   text-indent: 70px;
-  font-size: 20px;
+  font-size: 18px;
   color: red;
 }
 
@@ -116,6 +116,7 @@ p3{
   }
 }
 .pro {
+  background-image: url('D:\Jef.  08 11 23\Projetos GitHub\Meu Site 24 12 23\img\logo WhatsApp.webp');
   .pro {
   display: block;
   margin: auto;
@@ -157,23 +158,23 @@ p3{
   padding: 5px 0;
 }
 .colunaser {
-  margin: 1px;
-  padding: 0 0px;
+  margin: 2px;
   float: left;
   color: blue;
 }
 .colser1 {
-  padding: 0 60px;
+  padding: 0 50px;
+
   font-size: 20px;
-  width: 100%;
+  width: 88%;
   text-align: left;
   color: blue;
   
 }
 .colser2 {
-  padding: 0 60px;
+  padding: 0 50px;
   font-size: 20px;
-  width: 100%;
+  width: 88%;
   text-align: left;
 }
 
