@@ -29,15 +29,7 @@
 }
 
 /* Estilos para o BODY */
-body.sobre {
-  background-color: rgb(8, 3, 43);
-}
-body.tec {
-  background-color: black;
-}
-body.ser {
-  background-color: silver;
-}
+
 body.pro {
   background-color: gold;
 }
@@ -57,66 +49,25 @@ h3{
 }
 
 /* Estilos para PARAGRAFOS */
-p2{
-  font-size: 30px;
-  margin: 60px;
-  color: gold;
-}
+
 p3{
   font-size: 30px;
   margin: 60px;
   color: black;
 }
-.paragrafosobre {
-  margin: 1px;
-  text-align: justify;
-  text-indent: 70px;
-  font-size: 20px;
-  color: gold;
-}
-.paragrafotec {
-  margin: 1px;
-  text-align: justify;
-  text-indent: 70px;
-  font-size: 20px;
-  color: silver;
-}
-.paragrafoser {
-  margin: 1px;
-  text-align: justify;
-  text-indent: 70px;
-  font-size: 20px;
-  color: black;
-}
+
 .paragrafopro {
   margin: 1px;
   text-align: justify;
   text-indent: 70px;
-  font-size: 20px;
+  font-size: 18px;
   color: red;
 }
 
 /* Estilos para IMAGENS */
-.sobre {
-  background-image: url('d:\Jef.  08 11 23\Programação\HTML CSS\Meu Site 22 12 23\img\Jft.png');
-  .sobre {
-  display: block;
-  margin: auto;
-  width: 630px;
-  height: 700px;   
-  }
-}
-.ser {
-  background-image: url('d:\Jef.  08 11 23\Programação\HTML CSS\Meu Site 22 12 23\img\site2.png');
-  .ser {
-  display: block;
-  margin: auto;
-  width: 580px;
-  height: 400px;
-  }
-}
+
 .pro {
-  background-image: url('d:\Jef.  08 11 23\Programação\HTML CSS\Meu Site 23 12 23\img\logo WhatsApp.webp');
+  background-image: url('E:\Jef.  05 02 24\Projetos GitHub\Meu Site 24 12 23\img\logo WhatsApp.webp');
   .pro {
   display: block;
   margin: auto;
@@ -127,56 +78,6 @@ p3{
 
 /* Estilos para COLUNAS */
 /* grid 100%*/
-.linha {
-  width: 100%;
-  margin: auto;
-  overflow: auto;
-  padding: 5px 0;
-}
-.colunatec {
-  margin: auto;
-  padding: 0 0px;
-  float: left;
-  color: white;
-}
-.coltec1 {
-  font-size: 22px;
-  width: 48%;
-  text-align: left;
-  color: white;
-}
-.coltec2 {
-  font-size: 22px;
-  width: 48%;
-  text-align: left;
-}
-
-.linha {
-  width: 100%;
-  margin: auto;
-  overflow: auto;
-  padding: 5px 0;
-}
-.colunaser {
-  margin: 1px;
-  padding: 0 0px;
-  float: left;
-  color: blue;
-}
-.colser1 {
-  padding: 0 60px;
-  font-size: 20px;
-  width: 100%;
-  text-align: left;
-  color: blue;
-  
-}
-.colser2 {
-  padding: 0 60px;
-  font-size: 20px;
-  width: 100%;
-  text-align: left;
-}
 
 .linha {
   width: 100%;
