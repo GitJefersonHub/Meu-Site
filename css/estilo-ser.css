@@ -30,9 +30,10 @@
 
 /* Estilos para o BODY */
 
-body.pro {
-  background-color: gold;
+body.ser {
+  background-color: silver;
 }
+
 
 /* Estilos para FONTES */
 .font {
@@ -56,23 +57,23 @@ p3{
   color: black;
 }
 
-.paragrafopro {
+.paragrafoser {
   margin: 1px;
   text-align: justify;
   text-indent: 70px;
   font-size: 18px;
-  color: red;
+  color: black;
 }
 
 /* Estilos para IMAGENS */
 
-.pro {
+.ser {
   background-image: url('   ');
-  .pro {
+  .ser {
   display: block;
   margin: auto;
-  width: 300px;
-  height: 300px;
+  width: 580px;
+  height: 400px;
   }
 }
 
@@ -85,36 +86,24 @@ p3{
   overflow: auto;
   padding: 5px 0;
 }
-.colunapro {
-  margin: auto;
-  padding: 0 0px;
-  float: none;
-  color: black;
+.colunaser {
+  margin: 2px;
+  float: left;
+  color: blue;
 }
-.colpro1 {
-  font-size: 22px;
-  width: 100%;
-  text-align: none;
-  color: black;
+.colser1 {
+  padding: 0 50px;
+  font-size: 20px;
+  width: 88%;
+  text-align: left;
+  color: blue;
+  
 }
-.colpro2 {
-  font-size: 22px;
-  width: 100%;
-  text-align: none;
-}
-
-/* Estilos para BOTÃO */
-.btn-estilizado {
-  background-color: red; /* Cor de fundo do botão */
-  border: none; /* Sem bordas */
-  color: white; /* Cor do texto */
-  padding: 15px 32px; /* Espaçamento interno */
-  text-align: center; /* Alinhamento do texto */
-  text-decoration: none; /* Sem sublinhado */
-  display: inline-block;
-  font-size: 36px; /* Tamanho da fonte */
-  margin: 4px 2px;
-  cursor: pointer; /* Cursor de mão ao passar o mouse */
+.colser2 {
+  padding: 0 50px;
+  font-size: 20px;
+  width: 88%;
+  text-align: left;
 }
 
 /* Estilos para RODAPÉ */
@@ -123,5 +112,5 @@ footer {
   padding: 6px;
   text-align: center;
   color: white;
-  font-size: 10px;
+  font-size: 12px;
 } 
