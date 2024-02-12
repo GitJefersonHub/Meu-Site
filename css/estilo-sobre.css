@@ -49,10 +49,10 @@ h3{
 
 /* Estilos para PARAGRAFOS */
 p{
-  margin: 1px;
-  text-align: justify;
+  margin: 2px;
+  text-align:left;
   text-indent: 70px;
-  font-size: 18px;
+  font-size: 16px;
   color: gold;
 }
 

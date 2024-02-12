@@ -50,7 +50,7 @@ h3{
 /* Estilos para PARAGRAFOS */
 p{
   margin: 1px;
-  text-align: justify;
+  text-align: left;
   text-indent: 70px;
   font-size: 38px;
   color: gold;
@@ -58,9 +58,9 @@ p{
 
 .paragrafotec {
   margin: 1px;
-  text-align: justify;
+  text-align: left;
   text-indent: 70px;
-  font-size: 18px;
+  font-size: 16px;
   color: silver;
 }
 
