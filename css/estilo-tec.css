@@ -44,19 +44,13 @@ h2{
   font-size: 26px;
 }
 h3{
-  font-size: 22px;
+  text-indent: 70px;
+  font-size: 28px;
+  color: gold;
 }
 
 /* Estilos para PARAGRAFOS */
 p{
-  margin: 1px;
-  text-align: left;
-  text-indent: 70px;
-  font-size: 38px;
-  color: gold;
-}
-
-.paragrafotec {
   margin: 1px;
   text-align: left;
   text-indent: 70px;
@@ -96,5 +90,5 @@ footer {
   padding: 6px;
   text-align: center;
   color: white;
-  font-size: 12px;
+  font-size: 10px;
 } 
