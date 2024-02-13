@@ -97,20 +97,6 @@ p{
     width: 100%;
     text-align: none;
   }
-
-  /* Estilos para BOTÃO */
-.btn-estilizado {
-    background-color: red; /* Cor de fundo do botão */
-    border: none; /* Sem bordas */
-    color: white; /* Cor do texto */
-    padding: 15px 32px; /* Espaçamento interno */
-    text-align: center; /* Alinhamento do texto */
-    text-decoration: none; /* Sem sublinhado */
-    display: inline-block;
-    font-size: 36px; /* Tamanho da fonte */
-    margin: 4px 2px;
-    cursor: pointer; /* Cursor de mão ao passar o mouse */
-  }
   
   /* Estilos para RODAPÉ */
   footer {
