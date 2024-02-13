@@ -29,11 +29,9 @@
 }
 
 /* Estilos para o BODY */
-
-body.ser {
-  background-color: silver;
+body.tec {
+  background-color: black;
 }
-
 
 /* Estilos para FONTES */
 .font {
@@ -48,67 +46,57 @@ h2{
 h3{
   text-indent: 70px;
   font-size: 28px;
-  color: black;
+  color: gold;
 }
 
 /* Estilos para PARAGRAFOS */
-
 p{
   text-align: left;
   text-indent: 70px;
-  font-size: 16px;
-  color: black;
+  font-size: 15px;
+  color: silver;
 }
-
-/* Estilos para IMAGENS */
-.ser {
-  background-image: url('   ');
-  .ser {
-  display: block;
-  margin: auto;
-  width: 580px;
-  height: 400px;
-  }
+p1{
+  margin: 70px;
+  font-size: 15px;
+  color: gold;
 }
 
 /* Estilos para COLUNAS */
 /* grid 100%*/
-
 .linha {
   width: 100%;
   margin: auto;
   overflow: auto;
   padding: 5px 0;
 }
-.colunaser {
-  margin: 2px;
+.colunatec {
+  margin: auto;
+  padding: 0 0px;
   float: left;
-  color: blue;
+  color: white;
 }
-.colser1 {
-  padding: 0 50px;
-  font-size: 20px;
-  width: 88%;
+.coltec1 {
+  font-size: 22px;
+  width: 48%;
   text-align: left;
-  color: blue;
-  
+  color: white;
 }
-.colser2 {
-  padding: 0 50px;
-  font-size: 20px;
-  width: 88%;
+.coltec2 {
+  font-size: 22px;
+  width: 48%;
   text-align: left;
 }
 
 /* Estilos para BOTÃO */
 .btn-estilizado {
-  background-color: rgb(224, 100, 100); /* Cor de fundo do botão */
+  background-color: rgb(35, 173, 35); /* Cor de fundo do botão */
   border: none; /* Sem bordas */
-  color: rgb(59, 64, 148); /* Cor do texto */
+  color: gold; /* Cor do texto */
   padding: 15px 32px; /* Espaçamento interno */
   text-align: center; /* Alinhamento do texto */
   text-decoration: none; /* Sem sublinhado */
-  display: block;
+  display: block; /* Posição do botão */
   font-size: 36px; /* Tamanho da fonte */
   margin: auto;
   cursor: pointer; /* Cursor de mão ao passar o mouse */
