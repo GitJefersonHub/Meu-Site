@@ -30,7 +30,7 @@
 
 /* Estilos para o BODY */
 body.tec {
-  background-color: rgb(61, 42, 42);
+  background-color: black;
 }
 
 /* Estilos para FONTES */
@@ -90,9 +90,9 @@ p1{
 
 /* Estilos para BOTÕES */
 .btn-estilizado {
-  background-color: rgb(75, 72, 171); /* Cor de fundo do botão */
+  background-color: rgb(247, 247, 102); /* Cor de fundo do botão */
   border: none; /* Sem bordas */
-  color: orange; /* Cor do texto */
+  color: red; /* Cor do texto */
   padding: 15px 32px; /* Espaçamento interno */
   text-align: center; /* Alinhamento do texto */
   text-decoration: none; /* Sem sublinhado */
@@ -102,9 +102,9 @@ p1{
   cursor: pointer; /* Cursor de mão ao passar o mouse */
 }
 .btn-estilizado2 {
-  background-color: rgb(35, 173, 35); /* Cor de fundo do botão */
+  background-color: rgb(81, 219, 81); /* Cor de fundo do botão */
   border: none; /* Sem bordas */
-  color: gold; /* Cor do texto */
+  color: green; /* Cor do texto */
   padding: 15px 32px; /* Espaçamento interno */
   text-align: center; /* Alinhamento do texto */
   text-decoration: none; /* Sem sublinhado */
@@ -113,7 +113,18 @@ p1{
   margin: auto;
   cursor: pointer; /* Cursor de mão ao passar o mouse */
 }
-
+.btn-estilizado3 {
+  background-color: rgb(90, 90, 245); /* Cor de fundo do botão */
+  border: none; /* Sem bordas */
+  color: yellow; /* Cor do texto */
+  padding: 15px 32px; /* Espaçamento interno */
+  text-align: center; /* Alinhamento do texto */
+  text-decoration: none; /* Sem sublinhado */
+  display: block; /* Posição do botão */
+  font-size: 36px; /* Tamanho da fonte */
+  margin: auto;
+  cursor: pointer; /* Cursor de mão ao passar o mouse */
+}
 /* Estilos para RODAPÉ */
 footer {
   background-color: blue;
