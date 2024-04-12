@@ -30,7 +30,7 @@
 
 /* Estilos para o BODY */
 body.tec {
-  background-color: black;
+  background-color: rgb(61, 42, 42);
 }
 
 /* Estilos para FONTES */
@@ -90,6 +90,18 @@ p1{
 
 /* Estilos para BOTÃO */
 .btn-estilizado {
+  background-color: rgb(75, 72, 171); /* Cor de fundo do botão */
+  border: none; /* Sem bordas */
+  color: orange; /* Cor do texto */
+  padding: 15px 32px; /* Espaçamento interno */
+  text-align: center; /* Alinhamento do texto */
+  text-decoration: none; /* Sem sublinhado */
+  display: block; /* Posição do botão */
+  font-size: 36px; /* Tamanho da fonte */
+  margin: auto;
+  cursor: pointer; /* Cursor de mão ao passar o mouse */
+}
+.btn-estilizado2 {
   background-color: rgb(35, 173, 35); /* Cor de fundo do botão */
   border: none; /* Sem bordas */
   color: gold; /* Cor do texto */

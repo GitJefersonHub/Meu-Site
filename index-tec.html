@@ -4,7 +4,33 @@
       <meta charset="UTF-8">
       <link rel="stylesheet" type="text/css" href="css/estilo-tec.css" />
       <link rel="stylesheet" type="text/css" href="normalize.css" />
-      <title>Jeferson Alves</title>      
+      <title>Jeferson Alves</title>  
+
+      <script type="text/javascript">
+        const calcularImc = () =>{
+          const altura = document.imcForm.elements["altura"].value;
+          const peso = document.imcForm.elements["peso"]. value;
+
+          const imc = peso / (altura * altura);
+
+          if(imc < 18.5){
+            alert("Você está abaixo do peso, atente-se as orientações médica.");
+          }
+          else if(imc >= 18.5 && imc < 25){
+            alert("Você está com o peso adequado.");
+          }
+          else if(imc >= 25 && imc < 30){
+            alert("Você está com sobrepeso, atente-se as orientações médica.");
+          }
+          else if(imc>= 30 && imc < 40){
+            alert("Você está com obesidade, atente-se as orientaçôes médica.");
+          }
+          else if(imc >= 40){
+              alert("Você está com obesidade grave.")
+          }
+        }
+
+      </script>    
     </head>
     <body class="tec">
       <nav class="navbar">
@@ -51,7 +77,27 @@
               </ul>
             </div>
         </div>
-        <a href="https://wa.me/message/ENYLA6IADQOWE1" class="btn-estilizado" target="_blank"><strong>WhatsApp</strong></a>
+        
+        <a href="https://drive.google.com/file/d/1NCLs65oW3Of79O9SQv6Hm0rPu6V741Yp/view?usp=sharing" class="btn-estilizado" target="_blank"><strong>Certificados</strong></a>
+        <p> Certificados Adquiridos na área.</p>
+        <p> Atualizando os sistemas do passado, comemorando as conquistas do presente e de olho nas tecnologias do futuro. </p>
+        <a href="https://wa.me/message/ENYLA6IADQOWE1" class="btn-estilizado2" target="_blank"><strong>WhatsApp</strong></a>
+        <p> Aproveitando que você esta por aqui!</p>
+        <p> Confira o seu indice de massa corporal (IMC).</p>
+
+        <form id="imcForm" name="imcForm" action="#">
+          <label for="altura">Insira sua altura:</label>
+          <input type="text" id="altura" name="altura">
+          <br>
+
+          <label for="peso">Insira o seu peso:</label>
+          <input typpe="text" id="peso" name="peso">
+          <br>
+
+          <input type="submit" value="CalcularImc()">
+          </form>
+          <br>
+
         <footer>
           &copy; 2024 Meu Site. Todos os direitos reservados.
       </footer>
