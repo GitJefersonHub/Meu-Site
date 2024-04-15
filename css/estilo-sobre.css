@@ -30,17 +30,155 @@
 
 /* Estilos para telas pequenas (por exemplo, smartphones) */
 @media only screen and (max-width: 600px) {
-  /* Seus estilos aqui */
+  /* Estilos para o BODY */
+body.sobre {
+  background-color: rgb(10, 4, 49);
+}
+
+/* Estilos para FONTES */
+.font {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+  font-size: 200%;
+}
+h2{
+  font-size: 180%;
+}
+h3{
+  font-size: 160%;
+}
+
+/* Estilos para PARAGRAFOS */
+p{
+  text-align:left;
+  text-indent: 7%;
+  font-size: 200%;
+  color: gold;
+}
+
+/* Estilos para IMAGENS */
+.sobre {
+  background-image: url('   ');
+  .sobre {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  width: 80%;
+  height: 0%;   
+  }
+}
+
+/* Estilos para RODAPÉ */
+footer {
+  background-color: blue;
+  padding: 1%;
+  text-align: center;
+  color: white;
+  font-size: 100%;
+} 
 }
 
 /* Estilos para telas médias (por exemplo, tablets) */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
-  /* Seus estilos aqui */
+  /* Estilos para o BODY */
+body.sobre {
+  background-color: rgb(10, 4, 49);
+}
+
+/* Estilos para FONTES */
+.font {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+  font-size: 200%;
+}
+h2{
+  font-size: 180%;
+}
+h3{
+  font-size: 160%;
+}
+
+/* Estilos para PARAGRAFOS */
+p{
+  text-align:left;
+  text-indent: 7%;
+  font-size: 200%;
+  color: gold;
+}
+
+/* Estilos para IMAGENS */
+.sobre {
+  background-image: url('   ');
+  .sobre {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  width: 80%;
+  height: 0%;   
+  }
+}
+
+/* Estilos para RODAPÉ */
+footer {
+  background-color: blue;
+  padding: 1%;
+  text-align: center;
+  color: white;
+  font-size: 100%;
+} 
 }
 
 /* Estilos para telas grandes (por exemplo, desktops) */
 @media only screen and (min-width: 1025px) {
-  /* Seus estilos aqui */
+  /* Estilos para o BODY */
+body.sobre {
+  background-color: rgb(10, 4, 49);
+}
+
+/* Estilos para FONTES */
+.font {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+  font-size: 200%;
+}
+h2{
+  font-size: 180%;
+}
+h3{
+  font-size: 160%;
+}
+
+/* Estilos para PARAGRAFOS */
+p{
+  text-align:left;
+  text-indent: 7%;
+  font-size: 200%;
+  color: gold;
+}
+
+/* Estilos para IMAGENS */
+.sobre {
+  background-image: url('   ');
+  .sobre {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  width: 80%;
+  height: 0%;   
+  }
+}
+
+/* Estilos para RODAPÉ */
+footer {
+  background-color: blue;
+  padding: 1%;
+  text-align: center;
+  color: white;
+  font-size: 100%;
+} 
 }
 
 /* Estilos para o BODY */
