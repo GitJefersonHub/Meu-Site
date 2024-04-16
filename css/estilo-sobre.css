@@ -4,28 +4,76 @@
   align-items: center;
   justify-content: space-between;
   background-color: rgb(248, 44, 44);
-  padding: 0px;
+  padding: 0%;
 }
 .logo {
   color: white;
-  font-size: 20px;
+  font-size: 110%;
   font-style:italic;
-  margin-left: 20px;
-  margin-right: 20px; 
+  margin-left: 2%;
+  margin-right: 2%; 
 }
 .menu {
   list-style: none;
-  margin: 10px;
-  padding: 0;
+  margin: 1%;
+  padding: 1%;
   display: flex;
 }
 .menu li { 
-  margin-left: 14px;
-  margin-right: 14px;
+  margin-left: 1%;
+  margin-right: 1%;
 }
 .menu li a {
   text-decoration: none;
   color: yellow;
+}
+/* Estilos para o BODY */
+body.sobre {
+  background-color: rgb(10, 4, 49);
+}
+
+/* Estilos para FONTES */
+.font {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+  font-size: 200%;
+}
+h2{
+  font-size: 180%;
+}
+h3{
+  font-size: 160%;
+}
+
+/* Estilos para PARAGRAFOS */
+p{
+  text-align:left;
+  text-indent: 7%;
+  font-size: 200%;
+  color: gold;
+}
+
+/* Estilos para IMAGENS */
+.sobre {
+  background-image: url('   ');
+  .sobre {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  width: 80%;
+  height: 0%;   
+  }
+}
+
+/* Estilos para RODAPÉ */
+footer {
+  background-color: blue;
+  padding: 1%;
+  text-align: center;
+  color: white;
+  font-size: 100%;
+} 
 }
 
 /* Estilos para o BODY */
@@ -38,20 +86,20 @@ body.sobre {
   font-family: Arial, Helvetica, sans-serif;
 }
 h1{
-  font-size: 36px;
+  font-size: 200%;
 }
 h2{
-  font-size: 30px;
+  font-size: 180%;
 }
 h3{
-  font-size: 22px;
+  font-size: 160%;
 }
 
 /* Estilos para PARAGRAFOS */
 p{
   text-align:left;
-  text-indent: 70px;
-  font-size: 15px;
+  text-indent: 7%;
+  font-size: 200%;
   color: gold;
 }
 
@@ -59,18 +107,34 @@ p{
 .sobre {
   background-image: url('   ');
   .sobre {
+  max-width: 100%;
   display: block;
   margin: auto;
-  width: 630px;
-  height: 700px;   
+  width: 80%;
+  height: 0%;   
   }
 }
 
 /* Estilos para RODAPÉ */
 footer {
   background-color: blue;
-  padding: 6px;
+  padding: 1%;
   text-align: center;
   color: white;
-  font-size: 10px;
+  font-size: 100%;
+  padding: 1%;
 } 
+/* Estilos para telas pequenas (por exemplo, smartphones) */
+@media only screen and (max-width: 600px) {
+  /* Estilos aqui*/
+}
+
+/* Estilos para telas médias (por exemplo, tablets) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+ /* Estilos aqui*/
+}
+
+/* Estilos para telas grandes (por exemplo, desktops) */
+@media only screen and (min-width: 1025px) {
+/* Estilos aqui*/
+}
