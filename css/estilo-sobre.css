@@ -38,13 +38,13 @@ body.sobre {
   font-family: Arial, Helvetica, sans-serif;
 }
 h1{
-  font-size: 50px;
+  font-size: 36px;
 }
 h2{
-  font-size: 40px;
+  font-size: 30px;
 }
 h3{
-  font-size: 30px;
+  font-size: 28px;
 }
 
 /* Estilos para PARAGRAFOS */
@@ -59,11 +59,11 @@ p{
 .sobre {
   background-image: url('   ');
   .sobre {
-  max-width: 500px;
+  max-width: 100px;
   display: block;
   margin: auto;
-  width: 550px;
-  height: 550px;   
+  width: 55px;
+  height: 55px;   
   }
 }
 
