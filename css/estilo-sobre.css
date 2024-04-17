@@ -51,7 +51,7 @@ h3{
 p{
   text-align:left;
   text-indent: 7%;
-  font-size: 180%;
+  font-size: 200%;
   color: gold;
 }
 
@@ -59,11 +59,11 @@ p{
 .sobre {
   background-image: url('   ');
   .sobre {
-  max-width: 100px;
+  max-width: 100%;
   display: block;
   margin: auto;
-  width: 55px;
-  height: 55px;   
+  width: 100%;
+  height: 55%;   
   }
 }
 
@@ -85,10 +85,9 @@ p{
 /* Estilos para RODAPÉ */
 footer {
   background-color: blue;
-  padding: 1%;
   text-align: center;
   color: white;
-  font-size: 80%;
+  font-size: 120%;
   padding: 1%;
 } 
 /* Estilos para telas pequenas (por exemplo, smartphones) */
