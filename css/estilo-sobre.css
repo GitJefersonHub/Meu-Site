@@ -38,19 +38,19 @@ body.sobre {
   font-family: Arial, Helvetica, sans-serif;
 }
 h1{
-  font-size: 36px;
+  font-size: 40px;
 }
 h2{
-  font-size: 30px;
+  font-size: 35px;
 }
 h3{
-  font-size: 28px;
+  font-size: 30px;
 }
 
 /* Estilos para PARAGRAFOS */
 p{
   text-align:left;
-  text-indent: 7%;
+  text-indent: 8%;
   font-size: 200%;
   color: gold;
 }
@@ -62,8 +62,8 @@ p{
   max-width: 100%;
   display: block;
   margin: auto;
-  width: 40%;
-  height: 0%;   
+  width: 500px;
+  height: 570px;   
   }
 }
 
@@ -87,7 +87,7 @@ footer {
   background-color: blue;
   text-align: center;
   color: white;
-  font-size: 100%;
+  font-size: 20px;
   padding: 1%;
 } 
 /* Estilos para telas pequenas (por exemplo, smartphones) */
