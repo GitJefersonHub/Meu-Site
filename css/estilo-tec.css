@@ -38,27 +38,28 @@ body.tec {
   font-family: Arial, Helvetica, sans-serif;
 }
 h1{
-  font-size: 36px;
+  font-size: 40px;
 }
 h2{
-  font-size: 30px;
+  font-size: 35px;
 }
 h3{
-  text-indent: 70px;
-  font-size: 28px;
+  text-indent: 10%;
+  font-size: 300%;
   color: gold;
 }
 
 /* Estilos para PARAGRAFOS */
 p{
   text-align: left;
-  text-indent: 70px;
-  font-size: 15px;
+  text-indent: 10%;
+  font-size: 300%;
   color: silver;
 }
 p1{
-  margin: 70px;
-  font-size: 15px;
+  text-align: 10%;
+  margin: 2%;
+  font-size: 300%;
   color: gold;
 }
 
@@ -97,7 +98,7 @@ p1{
   text-align: center; /* Alinhamento do texto */
   text-decoration: none; /* Sem sublinhado */
   display: block; /* Posição do botão */
-  font-size: 36px; /* Tamanho da fonte */
+  font-size: 300%; /* Tamanho da fonte */
   margin: auto;
   cursor: pointer; /* Cursor de mão ao passar o mouse */
 }
@@ -109,7 +110,7 @@ p1{
   text-align: center; /* Alinhamento do texto */
   text-decoration: none; /* Sem sublinhado */
   display: block; /* Posição do botão */
-  font-size: 36px; /* Tamanho da fonte */
+  font-size: 300%; /* Tamanho da fonte */
   margin: auto;
   cursor: pointer; /* Cursor de mão ao passar o mouse */
 }
@@ -121,15 +122,16 @@ p1{
   text-align: center; /* Alinhamento do texto */
   text-decoration: none; /* Sem sublinhado */
   display: block; /* Posição do botão */
-  font-size: 36px; /* Tamanho da fonte */
+  font-size: 300%; /* Tamanho da fonte */
   margin: auto;
   cursor: pointer; /* Cursor de mão ao passar o mouse */
 }
+
 /* Estilos para RODAPÉ */
 footer {
   background-color: blue;
-  padding: 6px;
   text-align: center;
   color: white;
-  font-size: 10px;
+  padding: 6px;
+  font-size: 250%;
 } 
