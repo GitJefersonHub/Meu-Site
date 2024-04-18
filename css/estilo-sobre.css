@@ -67,6 +67,7 @@ body.sobre {
 
 /* Estilos para PARAGRAFOS */
 p{
+  margin: 2%;
   text-align: justify;
   text-indent: 10%;
   font-size: 200%;
