@@ -34,29 +34,29 @@ body.ser {
   background-color: silver;
 }
 
-
 /* Estilos para FONTES */
 .font {
   font-family: Arial, Helvetica, sans-serif;
 }
 h1{
-  font-size: 36px;
+  font-size: 40px;
 }
 h2{
-  font-size: 30px;
+  font-size: 35px;
 }
 h3{
-  text-indent: 70px;
-  font-size: 28px;
+  text-indent: 14%;
+  font-size: 300%;
   color: black;
 }
 
-/* Estilos para PARAGRAFOS */
 
+/* Estilos para PARAGRAFOS */
 p{
-  text-align: left;
-  text-indent: 70px;
-  font-size: 16px;
+  margin: 1%;
+  text-align: justify;
+  text-indent: 10%;
+  font-size: 300%;
   color: black;
 }
 
@@ -86,17 +86,17 @@ p{
   color: blue;
 }
 .colser1 {
-  padding: 0 50px;
-  font-size: 20px;
-  width: 88%;
+  padding: 0 10%;
+  font-size: 300%;
+  width: 78%;
   text-align: left;
   color: blue;
   
 }
 .colser2 {
-  padding: 0 50px;
-  font-size: 20px;
-  width: 88%;
+  padding: 0 10%;
+  font-size: 300%;
+  width: 78%;
   text-align: left;
 }
 
@@ -109,7 +109,7 @@ p{
   text-align: center; /* Alinhamento do texto */
   text-decoration: none; /* Sem sublinhado */
   display: block;
-  font-size: 36px; /* Tamanho da fonte */
+  font-size: 300%; /* Tamanho da fonte */
   margin: auto;
   cursor: pointer; /* Cursor de mão ao passar o mouse */
 }
@@ -123,7 +123,7 @@ p{
   text-align: center; /* Alinhamento do texto */
   text-decoration: none; /* Sem sublinhado */
   display: block;
-  font-size: 36px; /* Tamanho da fonte */
+  font-size: 300%; /* Tamanho da fonte */
   margin: auto;
   cursor: pointer; /* Cursor de mão ao passar o mouse */
 }
@@ -131,8 +131,8 @@ p{
 /* Estilos para RODAPÉ */
 footer {
   background-color: blue;
-  padding: 6px;
   text-align: center;
   color: white;
-  font-size: 10px;
+  padding: 6px;
+  font-size: 250%;
 } 
