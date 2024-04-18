@@ -69,8 +69,8 @@ body.sobre {
 p{
   margin: 1%;
   text-align: justify;
-  text-indent: 10%;
-  font-size: 250%;
+  text-indent: 14%;
+  font-size: 300%;
   color: gold;
 }
 
@@ -81,7 +81,7 @@ footer {
   text-align: center;
   color: white;
   padding: 6px;
-  font-size: 160%;
+  font-size: 250%;
 } 
 
 /* Estilos para telas pequenas (por exemplo, smartphones) */
