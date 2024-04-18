@@ -47,14 +47,6 @@ h3{
   font-size: 30px;
 }
 
-/* Estilos para PARAGRAFOS */
-p{
-  text-align:left;
-  text-indent: 8%;
-  font-size: 200%;
-  color: gold;
-}
-
 /* Estilos para IMAGENS */
 .sobre {
   background-image: url('   ');
@@ -75,8 +67,8 @@ body.sobre {
 
 /* Estilos para PARAGRAFOS */
 p{
-  text-align:left;
-  text-indent: 7%;
+  text-align: justify;
+  text-indent: 10%;
   font-size: 200%;
   color: gold;
 }
@@ -87,7 +79,7 @@ footer {
   background-color: blue;
   text-align: center;
   color: white;
-  font-size: 20px;
+  font-size: 16px;
   padding: 1%;
 } 
 /* Estilos para telas pequenas (por exemplo, smartphones) */
