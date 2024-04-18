@@ -64,12 +64,11 @@ body.sobre {
   background-color: rgb(10, 4, 49);
 }
 
-
 /* Estilos para PARAGRAFOS */
 p{
   margin: 1%;
   text-align: justify;
-  text-indent: 14%;
+  text-indent: 10%;
   font-size: 300%;
   color: gold;
 }
