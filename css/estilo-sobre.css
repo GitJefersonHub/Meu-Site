@@ -80,9 +80,10 @@ footer {
   background-color: blue;
   text-align: center;
   color: white;
+  padding: 6px;
   font-size: 16px;
-  padding: 1%;
 } 
+
 /* Estilos para telas pequenas (por exemplo, smartphones) */
 @media only screen and (max-width: 600px) {
   /* Estilos aqui*/
