@@ -62,7 +62,8 @@ h3{
 /* Estilos para PARAGRAFOS */
 p{
   margin-left: 2%;
-  text-align: left;
+  margin-right: 2%;
+  text-align: justify;
   text-indent: 10%;
   font-size: 220%;
   color: gold;
@@ -75,7 +76,7 @@ footer {
   text-align: center;
   color: white;
   padding: 6px;
-  font-size: 100%;
+  font-size: 70%;
 } 
 
 /* Estilos para telas pequenas (por exemplo, smartphones) */
