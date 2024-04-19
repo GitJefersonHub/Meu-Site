@@ -13,10 +13,9 @@ body.sobre {
 }
 .logo {
   color: white;
-  font-size: 20px;
   font-style:italic;
-  margin-left: 20px;
-  margin-right: 20px; 
+  margin-left: 2%;
+  margin-right: 2%; 
 }
 .menu {
   list-style: none;
@@ -38,7 +37,7 @@ body.sobre {
   font-family: Arial, Helvetica, sans-serif;
 }
 h1{
-  font-size: 200%;
+  font-size: 250%;
 }
 h2{
   font-size: 220%;
@@ -65,7 +64,7 @@ p{
   margin-right: 2%;
   text-align: justify;
   text-indent: 10%;
-  font-size: 140%;
+  font-size: 110%;
   color: gold;
 }
 
@@ -76,7 +75,7 @@ footer {
   text-align: center;
   color: white;
   padding: 6px;
-  font-size: 70%;
+  font-size: 90%;
 } 
 
 /* Estilos para telas pequenas (por exemplo, smartphones) */
