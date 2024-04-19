@@ -19,7 +19,7 @@ body.sobre {
 }
 .menu {
   list-style: none;
-  margin: 10px;
+  margin: 1%;
   padding: 0;
   display: flex;
 }
@@ -75,7 +75,7 @@ footer {
   text-align: center;
   color: white;
   padding: 6px;
-  font-size: 90%;
+  font-size: 80%;
 } 
 
 /* Estilos para telas pequenas (por exemplo, smartphones) */
