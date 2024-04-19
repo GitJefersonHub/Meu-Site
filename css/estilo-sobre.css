@@ -1,3 +1,8 @@
+/* Estilos para o BODY */
+body.sobre {
+  background-color: rgb(10, 4, 49);
+}
+
 /* Estilos para o menu de navegação */
 .navbar {
   display: flex;
@@ -28,23 +33,18 @@
   color: yellow;
 }
 
-/* Estilos para o BODY */
-body.sobre {
-  background-color: rgb(10, 4, 49);
-}
-
 /* Estilos para FONTES */
 .font {
   font-family: Arial, Helvetica, sans-serif;
 }
 h1{
-  font-size: 40px;
+  font-size: 200%;
 }
 h2{
-  font-size: 35px;
+  font-size: 220%;
 }
 h3{
-  font-size: 30px;
+  font-size: 200%;
 }
 
 /* Estilos para IMAGENS */
@@ -59,17 +59,12 @@ h3{
   }
 }
 
-/* Estilos para o BODY */
-body.sobre {
-  background-color: rgb(10, 4, 49);
-}
-
 /* Estilos para PARAGRAFOS */
 p{
   margin: 1%;
   text-align: justify;
   text-indent: 10%;
-  font-size: 300%;
+  font-size: 250%;
   color: gold;
 }
 
@@ -80,7 +75,7 @@ footer {
   text-align: center;
   color: white;
   padding: 6px;
-  font-size: 250%;
+  font-size: 150%;
 } 
 
 /* Estilos para telas pequenas (por exemplo, smartphones) */
