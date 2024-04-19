@@ -65,7 +65,7 @@ p{
   margin-right: 2%;
   text-align: justify;
   text-indent: 10%;
-  font-size: 220%;
+  font-size: 200%;
   color: gold;
 }
 
@@ -76,7 +76,7 @@ footer {
   text-align: center;
   color: white;
   padding: 6px;
-  font-size: 70%;
+  font-size: 50%;
 } 
 
 /* Estilos para telas pequenas (por exemplo, smartphones) */
