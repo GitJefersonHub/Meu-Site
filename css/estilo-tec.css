@@ -83,15 +83,22 @@ p1{
   color: white;
 }
 .coltec1 {
-  font-size: 180%;
+  font-size: 150%;
   width: 48%;
   text-align: left;
   color: white;
 }
 .coltec2 {
-  font-size: 180%;
+  font-size: 150%;
   width: 48%;
   text-align: left;
+}
+
+.coltec3 {
+  font-size: 110%;
+  width: 100%;
+  text-align: left;
+  color: silver;
 }
 
 /* Estilos para BOTÕES */
