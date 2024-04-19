@@ -1,3 +1,8 @@
+/* Estilos para o BODY */
+body.tec {
+  background-color: black;
+}
+
 /* Estilos para o menu de navegação */
 .navbar {
   display: flex;
@@ -8,14 +13,13 @@
 }
 .logo {
   color: white;
-  font-size: 20px;
   font-style:italic;
-  margin-left: 20px;
-  margin-right: 20px; 
+  margin-left: 2%;
+  margin-right: 2%; 
 }
 .menu {
   list-style: none;
-  margin: 10px;
+  margin: 1%;
   padding: 0;
   display: flex;
 }
@@ -28,39 +32,39 @@
   color: yellow;
 }
 
-/* Estilos para o BODY */
-body.tec {
-  background-color: black;
-}
-
 /* Estilos para FONTES */
 .font {
   font-family: Arial, Helvetica, sans-serif;
 }
 h1{
-  font-size: 40px;
+  font-size: 250%;
 }
 h2{
-  font-size: 35px;
+  font-size: 220%;
 }
 h3{
+  margin-left: 2%;
+  margin-right: 2%;
   text-indent: 10%;
-  font-size: 300%;
+  font-size: 170%;
   color: gold;
 }
 
 /* Estilos para PARAGRAFOS */
 p{
-  margin: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
   text-align: justify;
   text-indent: 10%;
-  font-size: 300%;
+  font-size: 110%;
   color: silver;
 }
 
 p1{
+  margin-left: 2%;
+  margin-right: 2%;
   text-indent: 10%;
-  font-size: 300%;
+  font-size: 110%;
   color: gold;
 }
 
@@ -79,13 +83,13 @@ p1{
   color: white;
 }
 .coltec1 {
-  font-size: 22px;
+  font-size: 180%;
   width: 48%;
   text-align: left;
   color: white;
 }
 .coltec2 {
-  font-size: 22px;
+  font-size: 180%;
   width: 48%;
   text-align: left;
 }
@@ -134,5 +138,5 @@ footer {
   text-align: center;
   color: white;
   padding: 6px;
-  font-size: 250%;
+  font-size: 80%;
 } 

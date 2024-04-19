@@ -1,3 +1,8 @@
+/* Estilos para o BODY */
+body.ser {
+  background-color: silver;
+}
+
 /* Estilos para o menu de navegação */
 .navbar {
   display: flex;
@@ -8,14 +13,13 @@
 }
 .logo {
   color: white;
-  font-size: 20px;
   font-style:italic;
-  margin-left: 20px;
-  margin-right: 20px; 
+  margin-left: 2%;
+  margin-right: 2%; 
 }
 .menu {
   list-style: none;
-  margin: 10px;
+  margin: 1%;
   padding: 0;
   display: flex;
 }
@@ -28,35 +32,21 @@
   color: yellow;
 }
 
-/* Estilos para o BODY */
-
-body.ser {
-  background-color: silver;
-}
-
 /* Estilos para FONTES */
 .font {
   font-family: Arial, Helvetica, sans-serif;
 }
 h1{
-  font-size: 40px;
+  font-size: 250%;
 }
 h2{
-  font-size: 35px;
+  font-size: 220%;
 }
 h3{
-  text-indent: 14%;
-  font-size: 300%;
-  color: black;
-}
-
-
-/* Estilos para PARAGRAFOS */
-p{
-  margin: 1%;
-  text-align: justify;
+  margin-left: 2%;
+  margin-right: 2%;
   text-indent: 10%;
-  font-size: 300%;
+  font-size: 170%;
   color: black;
 }
 
@@ -69,6 +59,24 @@ p{
   width: 580px;
   height: 400px;
   }
+}
+
+/* Estilos para PARAGRAFOS */
+p{
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: justify;
+  text-indent: 10%;
+  font-size: 110%;
+  color: black;
+}
+
+p1{
+  margin-left: 2%;
+  margin-right: 2%;
+  text-indent: 10%;
+  font-size: 110%;
+  color: blue;
 }
 
 /* Estilos para COLUNAS */
@@ -87,7 +95,7 @@ p{
 }
 .colser1 {
   padding: 0 10%;
-  font-size: 300%;
+  font-size: 110%;
   width: 78%;
   text-align: left;
   color: blue;
@@ -95,7 +103,7 @@ p{
 }
 .colser2 {
   padding: 0 10%;
-  font-size: 300%;
+  font-size: 110%;
   width: 78%;
   text-align: left;
 }
@@ -109,6 +117,19 @@ p{
   text-align: center; /* Alinhamento do texto */
   text-decoration: none; /* Sem sublinhado */
   display: block;
+  font-size: 300%; /* Tamanho da fonte */
+  margin: auto;
+  cursor: pointer; /* Cursor de mão ao passar o mouse */
+}
+
+.btn-estilizado2 {
+  background-color: rgb(81, 219, 81); /* Cor de fundo do botão */
+  border: none; /* Sem bordas */
+  color: green; /* Cor do texto */
+  padding: 15px 32px; /* Espaçamento interno */
+  text-align: center; /* Alinhamento do texto */
+  text-decoration: none; /* Sem sublinhado */
+  display: block; /* Posição do botão */
   font-size: 300%; /* Tamanho da fonte */
   margin: auto;
   cursor: pointer; /* Cursor de mão ao passar o mouse */
@@ -134,5 +155,5 @@ footer {
   text-align: center;
   color: white;
   padding: 6px;
-  font-size: 250%;
+  font-size: 80%;
 } 
