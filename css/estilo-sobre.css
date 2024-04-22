@@ -62,12 +62,19 @@ h3{
 p{
   margin-left: 2%;
   margin-right: 2%;
-  text-align: left;
+  text-align: justify;
   text-indent: 10%;
-  font-size: 80%;
+  font-size: 100%;
   color: gold;
 }
-
+p1{
+  margin-left: 0%;
+  margin-right: 0%;
+  text-align: left;
+  text-indent: 0%;
+  font-size: 100%;
+  color: yellow;
+}
 
 /* Estilos para RODAPÉ */
 footer {
