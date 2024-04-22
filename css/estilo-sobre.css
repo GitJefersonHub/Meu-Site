@@ -60,6 +60,7 @@ h3{
 
 /* Estilos para PARAGRAFOS */
 p{
+  hyphens: auto;
   margin-left: 2%;
   margin-right: 2%;
   text-align: justify;
@@ -68,6 +69,7 @@ p{
   color: gold;
 }
 p1{
+  hyphens: auto;
   margin-left: 0%;
   margin-right: 0%;
   text-align: left;

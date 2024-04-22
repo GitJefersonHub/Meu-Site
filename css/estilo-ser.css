@@ -63,6 +63,7 @@ h3{
 
 /* Estilos para PARAGRAFOS */
 p{
+  hyphens: auto;
   margin-left: 2%;
   margin-right: 2%;
   text-align: justify;
@@ -72,6 +73,7 @@ p{
 }
 
 p1{
+  hyphens: auto;
   margin-left: 2%;
   margin-right: 2%;
   text-indent: 10%;
