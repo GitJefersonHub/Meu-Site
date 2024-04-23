@@ -1,3 +1,8 @@
+/* Estilos para o BODY */
+body.sobre {
+  background-color: rgb(10, 4, 49);
+}
+
 /* Estilos para o menu de navegação */
 .navbar {
   display: flex;
@@ -8,14 +13,13 @@
 }
 .logo {
   color: white;
-  font-size: 20px;
   font-style:italic;
-  margin-left: 20px;
-  margin-right: 20px; 
+  margin-left: 2%;
+  margin-right: 2%; 
 }
 .menu {
   list-style: none;
-  margin: 10px;
+  margin: 1%;
   padding: 0;
   display: flex;
 }
@@ -28,23 +32,18 @@
   color: yellow;
 }
 
-/* Estilos para o BODY */
-body.sobre {
-  background-color: rgb(10, 4, 49);
-}
-
 /* Estilos para FONTES */
 .font {
   font-family: Arial, Helvetica, sans-serif;
 }
 h1{
-  font-size: 40px;
+  font-size: 250%;
 }
 h2{
-  font-size: 35px;
+  font-size: 220%;
 }
 h3{
-  font-size: 30px;
+  font-size: 170%;
 }
 
 /* Estilos para IMAGENS */
@@ -54,25 +53,30 @@ h3{
   max-width: 100%;
   display: block;
   margin: auto;
-  width: 500px;
-  height: 570px;   
+  width: 530px;
+  height: 600px;   
   }
-}
-
-/* Estilos para o BODY */
-body.sobre {
-  background-color: rgb(10, 4, 49);
 }
 
 /* Estilos para PARAGRAFOS */
 p{
-  margin: 1%;
+  hyphens: auto;
+  margin-left: 2%;
+  margin-right: 2%;
   text-align: justify;
   text-indent: 10%;
-  font-size: 300%;
+  font-size: 150%;
   color: gold;
 }
-
+p1{
+  hyphens: auto;
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: left;
+  text-indent: 0%;
+  font-size: 150%;
+  color: yellow;
+}
 
 /* Estilos para RODAPÉ */
 footer {
@@ -80,20 +84,5 @@ footer {
   text-align: center;
   color: white;
   padding: 6px;
-  font-size: 250%;
+  font-size: 80%;
 } 
-
-/* Estilos para telas pequenas (por exemplo, smartphones) */
-@media only screen and (max-width: 600px) {
-  /* Estilos aqui*/
-}
-
-/* Estilos para telas médias (por exemplo, tablets) */
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
- /* Estilos aqui*/
-}
-
-/* Estilos para telas grandes (por exemplo, desktops) */
-@media only screen and (min-width: 1025px) {
-/* Estilos aqui*/
-}
