@@ -68,7 +68,7 @@ p{
   margin-right: 2%;
   text-align: justify;
   text-indent: 10%;
-  font-size: 130%;
+  font-size: 150%;
   color: black;
 }
 
@@ -77,7 +77,7 @@ p1{
   margin-left: 2%;
   margin-right: 2%;
   text-indent: 10%;
-  font-size: 130%;
+  font-size: 150%;
   color: blue;
 }
 
@@ -96,16 +96,18 @@ p1{
   color: blue;
 }
 .colser1 {
+  hyphens: auto;
   padding: 0 10%;
-  font-size: 120%;
+  font-size: 150%;
   width: 78%;
   text-align: left;
   color: blue;
 }
 
 .colser2 {
+  hyphens: auto;
   padding: 0 10%;
-  font-size: 120%;
+  font-size: 150%;
   width: 78%;
   text-align: left;
 }
