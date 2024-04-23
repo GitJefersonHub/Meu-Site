@@ -65,7 +65,7 @@ p{
   margin-right: 2%;
   text-align: justify;
   text-indent: 10%;
-  font-size: 120%;
+  font-size: 130%;
   color: gold;
 }
 p1{
@@ -74,7 +74,7 @@ p1{
   margin-right: 2%;
   text-align: left;
   text-indent: 0%;
-  font-size: 120%;
+  font-size: 130%;
   color: yellow;
 }
 
@@ -93,8 +93,8 @@ p1{
 }
 .colsob1 {
   padding: 0 10%;
-  font-size: 120%;
-  width: 100%;
+  font-size: 200%;
+  width: 78%;
   text-align: left;
   color: yellow;
 }
