@@ -78,27 +78,6 @@ p1{
   color: yellow;
 }
 
-/* Estilos para COLUNAS */
-/* grid 100%*/
-
-.linha {
-  width: 100%;
-  margin: auto;
-  overflow: auto;
-}
-.colunasob {
-  margin: 2px;
-  float: left;
-  color:yellow;
-}
-.colsob1 {
-  padding: 0 10%;
-  font-size: 250%;
-  width: 78%;
-  text-align: left;
-  color: yellow;
-}
-
 /* Estilos para RODAPÉ */
 footer {
   background-color: blue;
