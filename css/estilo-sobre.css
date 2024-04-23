@@ -65,16 +65,37 @@ p{
   margin-right: 2%;
   text-align: justify;
   text-indent: 10%;
-  font-size: 100%;
+  font-size: 120%;
   color: gold;
 }
 p1{
   hyphens: auto;
-  margin-left: 0%;
-  margin-right: 0%;
+  margin-left: 2%;
+  margin-right: 2%;
   text-align: left;
   text-indent: 0%;
-  font-size: 100%;
+  font-size: 120%;
+  color: yellow;
+}
+
+/* Estilos para COLUNAS */
+/* grid 100%*/
+
+.linha {
+  width: 100%;
+  margin: auto;
+  overflow: auto;
+}
+.colunasob {
+  margin: 2px;
+  float: left;
+  color:yellow;
+}
+.colsob1 {
+  padding: 0 10%;
+  font-size: 120%;
+  width: 100%;
+  text-align: left;
   color: yellow;
 }
 
