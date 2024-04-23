@@ -63,19 +63,21 @@ h3{
 
 /* Estilos para PARAGRAFOS */
 p{
+  hyphens: auto;
   margin-left: 2%;
   margin-right: 2%;
   text-align: justify;
   text-indent: 10%;
-  font-size: 100%;
+  font-size: 150%;
   color: black;
 }
 
 p1{
+  hyphens: auto;
   margin-left: 2%;
   margin-right: 2%;
   text-indent: 10%;
-  font-size: 100%;
+  font-size: 150%;
   color: blue;
 }
 
@@ -94,16 +96,18 @@ p1{
   color: blue;
 }
 .colser1 {
+  hyphens: auto;
   padding: 0 10%;
-  font-size: 110%;
+  font-size: 150%;
   width: 78%;
   text-align: left;
   color: blue;
-  
 }
+
 .colser2 {
+  hyphens: auto;
   padding: 0 10%;
-  font-size: 110%;
+  font-size: 150%;
   width: 78%;
   text-align: left;
 }
@@ -112,7 +116,7 @@ p1{
 .btn-estilizado1 {
   background-color: yellow; /* Cor de fundo do botão */
   border: none; /* Sem bordas */
-  color: red; /* Cor do texto */
+  color: brown; /* Cor do texto */
   padding: 15px 32px; /* Espaçamento interno */
   text-align: center; /* Alinhamento do texto */
   text-decoration: none; /* Sem sublinhado */
@@ -123,7 +127,7 @@ p1{
 }
 
 .btn-estilizado2 {
-  background-color: rgb(81, 219, 81); /* Cor de fundo do botão */
+  background-color: rgb(100, 209, 100); /* Cor de fundo do botão */
   border: none; /* Sem bordas */
   color: green; /* Cor do texto */
   padding: 15px 32px; /* Espaçamento interno */

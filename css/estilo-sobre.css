@@ -60,19 +60,21 @@ h3{
 
 /* Estilos para PARAGRAFOS */
 p{
+  hyphens: auto;
   margin-left: 2%;
   margin-right: 2%;
   text-align: justify;
   text-indent: 10%;
-  font-size: 100%;
+  font-size: 150%;
   color: gold;
 }
 p1{
-  margin-left: 0%;
-  margin-right: 0%;
+  hyphens: auto;
+  margin-left: 2%;
+  margin-right: 2%;
   text-align: left;
   text-indent: 0%;
-  font-size: 100%;
+  font-size: 150%;
   color: yellow;
 }
 
