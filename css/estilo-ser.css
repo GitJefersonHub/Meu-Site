@@ -63,6 +63,10 @@ h3{
 
 /* Estilos para PARAGRAFOS */
 p{
+  /* Para Android e iOS */
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
   hyphens: auto;
   margin-left: 2%;
   margin-right: 2%;
@@ -73,6 +77,10 @@ p{
 }
 
 p1{
+  /* Para Android e iOS */
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
   hyphens: auto;
   margin-left: 2%;
   margin-right: 2%;
@@ -96,6 +104,10 @@ p1{
   color: blue;
 }
 .colser1 {
+  /* Para Android e iOS */
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
   hyphens: auto;
   padding: 0 10%;
   font-size: 150%;
@@ -105,6 +117,10 @@ p1{
 }
 
 .colser2 {
+  /* Para Android e iOS */
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
   hyphens: auto;
   padding: 0 10%;
   font-size: 150%;

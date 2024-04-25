@@ -60,6 +60,10 @@ h3{
 
 /* Estilos para PARAGRAFOS */
 p{
+  /* Para Android e iOS */
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
   hyphens: auto;
   margin-left: 2%;
   margin-right: 2%;
@@ -69,6 +73,10 @@ p{
   color: gold;
 }
 p1{
+  /* Para Android e iOS */
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
   hyphens: auto;
   margin-left: 2%;
   margin-right: 2%;
