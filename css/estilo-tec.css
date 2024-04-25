@@ -52,6 +52,10 @@ h3{
 
 /* Estilos para PARAGRAFOS */
 p{
+/* Para Android e iOS */
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
   hyphens: auto;
   margin-left: 2%;
   margin-right: 2%;
@@ -62,6 +66,10 @@ p{
 }
 
 p1{
+/* Para Android e iOS */
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
   hyphens: auto;
   margin-left: 2%;
   margin-right: 2%;
@@ -85,6 +93,10 @@ p1{
   color: white;
 }
 .coltec1 {
+  /* Para Android e iOS */
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
   hyphens: auto;
   font-size: 150%;
   width: 48%;
@@ -92,6 +104,10 @@ p1{
   color: white;
 }
 .coltec2 {
+/* Para Android e iOS */
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
   hyphens: auto;
   font-size: 150%;
   width: 48%;
@@ -100,7 +116,13 @@ p1{
 }
 
 .coltec3 {
-  font-size: 200%;
+/* Para Android e iOS */
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  padding: 0 0%;
+  font-size: 220%;
   width: 100%;
   text-align: left;
   color: silver;
