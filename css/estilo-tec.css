@@ -121,9 +121,9 @@ p1{
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  padding: 0 0%;
-  font-size: 220%;
-  width: 100%;
+  padding: 0 10%;
+  font-size: 170%;
+  width: 80%;
   text-align: left;
   color: silver;
 }
