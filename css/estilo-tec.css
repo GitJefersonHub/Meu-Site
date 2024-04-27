@@ -121,10 +121,10 @@ p1{
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  padding: 0 10%;
+  padding-left: 10%;
+  margin-bottom: 0%;
   font-size: 200%;
-  width: 80%;
-  text-align: left;
+  width: 100%;
   color: silver;
 }
 
