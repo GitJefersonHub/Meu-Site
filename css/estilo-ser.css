@@ -109,9 +109,9 @@ p1{
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  padding: 0 10%;
-  font-size: 200%;
-  width: 78%;
+  padding-left: 10%;
+  font-size: 230%;
+  width: 80%;
   text-align: left;
   color: blue;
 }
@@ -122,9 +122,8 @@ p1{
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  padding: 0 10%;
+  padding-left: 10%;
   font-size: 200%;
-  width: 78%;
   text-align: left;
 }
 
