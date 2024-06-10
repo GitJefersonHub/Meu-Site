@@ -70,9 +70,10 @@ h3{
 /* Estilos para IMAGENS */
 .sobre {
   .sobre {
-  
-  width: 50%;
-  height: 50%;
+  margin: auto;
+  display: block;
+  width: 100%;
+  height: 100%;
 
   }
 }
