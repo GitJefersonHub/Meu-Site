@@ -6,13 +6,13 @@ body.sobre {
 /* Para telas pequenas, como celulares */
 @media only screen and (max-width: 600px) {
   .container {
-  width: 50%;
+  width: 90%;
   }
  }
  /* Para telas médias, como tablets */
  @media only screen and (min-width: 601px) and (max-width: 768px) {
   .container {
-  width: 50%;
+  width: 75%;
   }
  }
  /* Para telas grandes, como desktops */
