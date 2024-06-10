@@ -7,14 +7,13 @@ body.sobre {
 /* Para telas extra pequenas (celulares, menos de 480px) */
 @media only screen and (max-width: 480px) {
   .container {
-    width: 180%;
-    padding: 10px;
+    width: 80%;
   }
  } 
 /* Para telas pequenas, como celulares */
 @media only screen and (max-width: 600px) {
   .container {
-  width: 160%;
+  width: 60%;
   }
  }
  /* Para telas médias, como tablets */
