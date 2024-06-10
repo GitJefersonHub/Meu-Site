@@ -1,6 +1,14 @@
 /* Estilos para o BODY */
 body.ser {
   background-color: silver;
+
+
+  .container {
+    width: 80%; /* A largura será sempre 80% da largura do contêiner pai */
+  }
+  
+
+
 }
 
 /* Estilos para o menu de navegação */

@@ -3,6 +3,27 @@ body.sobre {
   background-color: rgb(10, 4, 49);
 }
 
+
+/* Para telas pequenas, como celulares */
+@media only screen and (max-width: 600px) {
+  .container {
+  width: 100%;
+  }
+ }
+ /* Para telas médias, como tablets */
+ @media only screen and (min-width: 601px) and (max-width: 768px) {
+  .container {
+  width: 75%;
+  }
+ }
+ /* Para telas grandes, como desktops */
+ @media only screen and (min-width: 769px) {
+  .container {
+  width: 50%;
+  }
+ }
+
+
 /* Estilos para o menu de navegação */
 .navbar {
   display: flex;
@@ -93,5 +114,4 @@ footer {
   color: white;
   padding: 6px;
   font-size: 80%;
-  width: 250%;
 } 
