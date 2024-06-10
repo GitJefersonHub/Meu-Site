@@ -1,7 +1,7 @@
 /* Estilos para o BODY */
 body.sobre {
   background-color: rgb(10, 4, 49);
-
+width: 100%;
 }
 
 /* Para telas pequenas, como celulares */
