@@ -4,6 +4,13 @@ body.sobre {
   width: 99%;
 }
 
+/* Para telas extra pequenas (celulares, menos de 480px) */
+@media only screen and (max-width: 480px) {
+  .container {
+    width: 180%;
+    padding: 10px;
+  }
+ } 
 /* Para telas pequenas, como celulares */
 @media only screen and (max-width: 600px) {
   .container {
@@ -22,6 +29,13 @@ body.sobre {
   width: 50%;
   }
  }
+
+ /* Para telas extra grandes (desktops grandes, mais de 1200px) */
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 60%;
+    padding: 30px;
+
 
 /* Estilos para o menu de navegação */
 .navbar {
