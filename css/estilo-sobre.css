@@ -4,10 +4,18 @@ body.sobre {
 
 }
 
+/* Para telas extra pequenas (celulares, menos de 480px) */
+@media only screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+    padding: 10px;
+
+
 /* Para telas pequenas, como celulares */
 @media only screen and (max-width: 767%) {
   .container {
   width: 150%;
+  padding: 10px;
   }
  }
  /* Para telas médias, como tablets */
@@ -70,9 +78,9 @@ h3{
 /* Estilos para IMAGENS */
 .sobre {
   .sobre {
-  text-align: center;
-  width: 200%;
-  height: 200%;
+  
+  width: 100%;
+  height: 100%;
 
   }
 }
