@@ -1,7 +1,7 @@
 /* Estilos para o BODY */
 body.sobre {
   background-color: rgb(10, 4, 49);
-  width: 100%;
+  width: 99%;
 }
 
 /* Para telas pequenas, como celulares */
@@ -17,7 +17,7 @@ body.sobre {
   }
  }
  /* Para telas grandes, como desktops */
- @media only screen and (min-width: 769px) {
+ @media only screen and (min-width: 300px) {
   .container {
   width: 50%;
   }
@@ -30,7 +30,7 @@ body.sobre {
   justify-content: space-between;
   background-color: rgb(248, 44, 44);
   padding: 0px;
-  width: 200%;
+  width: 199%;
 }
 .logo {
   color: white;
@@ -69,11 +69,12 @@ h3{
 
 /* Estilos para IMAGENS */
 .sobre {
+  background-image: url('   ');
   .sobre {
-  margin: auto;
   display: block;
-  width: 100%;
-  height: 100%;
+  margin: auto;
+  width: 199%;
+  height: 199%;
 
   }
 }
@@ -91,7 +92,7 @@ p{
   text-indent: 10%;
   font-size: 150%;
   color: gold;
-  width: 199%;
+  width: 198%;
 }
 p1{
   /* Para Android e iOS */
@@ -105,7 +106,7 @@ p1{
   text-indent: 0%;
   font-size: 150%;
   color: yellow;
-  width: 199%;
+  width: 198%;
 }
 
 /* Estilos para RODAPÉ */
@@ -115,5 +116,5 @@ footer {
   color: white;
   padding: 6px;
   font-size: 80%;
-  width: 199%;
+  width: 198%;
 } 
