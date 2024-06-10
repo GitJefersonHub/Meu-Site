@@ -7,7 +7,7 @@ body.sobre {
 /* Para telas pequenas, como celulares */
 @media only screen and (max-width: 800px) {
   .container {
-  width: 180%;
+  width: 200%;
   }
  }
  /* Para telas médias, como tablets */
