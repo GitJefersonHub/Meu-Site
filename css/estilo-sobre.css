@@ -1,13 +1,13 @@
 /* Estilos para o BODY */
 body.sobre {
   background-color: rgb(10, 4, 49);
-width: 100%;
+  width: 100%;
 }
 
 /* Para telas pequenas, como celulares */
 @media only screen and (max-width: 600px) {
   .container {
-  width: 100%;
+  width: 200%;
   }
  }
  /* Para telas médias, como tablets */
