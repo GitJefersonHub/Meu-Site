@@ -7,7 +7,7 @@ body.sobre {
 /* Para telas pequenas, como celulares */
 @media only screen and (max-width: 600px) {
   .container {
-  width: 2000%;
+  width: 150%;
   }
  }
  /* Para telas médias, como tablets */
@@ -30,7 +30,7 @@ body.sobre {
   justify-content: space-between;
   background-color: rgb(248, 44, 44);
   padding: 0px;
-  width: 200%;
+  width: 220%;
 }
 .logo {
   color: white;
