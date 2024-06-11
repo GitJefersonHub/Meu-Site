@@ -82,7 +82,7 @@ p{
   margin-right: 2%;
   text-align: justify;
   text-indent: 10%;
-  font-size: 200%;
+  font-size: 100%;
   color: silver;
   width: 199%;
 }
@@ -96,7 +96,7 @@ p1{
   margin-left: 0%;
   margin-right: 0%;
   text-indent: 10%;
-  font-size: 200%;
+  font-size: 100%;
   color: gold;
   width: 199%;
 }
@@ -199,5 +199,5 @@ footer {
   color: white;
   padding: 6px;
   font-size: 200%;
-  width: 199%;
+  width: 200%;
 }  
