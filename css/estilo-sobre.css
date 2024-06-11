@@ -29,13 +29,6 @@ body.sobre {
   }
  }
 
- /* Para telas extra grandes (desktops grandes, mais de 1200px) */
-@media only screen and (min-width: 1200px) {
-  .container {
-  width: 50%;
-  }
-}
-
 
 /* Estilos para o menu de navegação */
 .navbar {
