@@ -93,9 +93,9 @@ p1{
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  margin-left: 0%;
-  margin-right: 0%;
-  text-indent: 0%;
+  margin-left: 2%;
+  margin-right: 2%;
+  text-indent: 10%;
   font-size: 160%;
   color: gold;
   width: 199%;
@@ -135,7 +135,7 @@ p1{
   font-size: 140%;
   width: 48%;
   text-align: left;
-  color: white;
+  color: black;
 }
 
 .coltec3 {
@@ -145,7 +145,7 @@ p1{
   -ms-hyphens: auto;
   hyphens: auto;
   padding-left: 0%;
-  font-size: 260%;
+  font-size: 160%;
   color: silver;
   width: 199%;
 }
