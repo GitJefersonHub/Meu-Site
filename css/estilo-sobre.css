@@ -13,7 +13,7 @@ body.sobre {
 /* Para telas pequenas, como celulares */
 @media only screen and (max-width: 600px) {
   .container {
-  width: 100%;
+  width: 110%;
   }
  }
  /* Para telas médias, como tablets */
@@ -25,7 +25,7 @@ body.sobre {
  /* Para telas grandes, como desktops */
  @media only screen and (min-width: 769px) {
   .container {
-  width: 65%;
+  width: 50%;
   }
  }
 
