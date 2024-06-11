@@ -82,7 +82,7 @@ p{
   margin-right: 2%;
   text-align: justify;
   text-indent: 10%;
-  font-size: 260%;
+  font-size: 200%;
   color: silver;
   width: 199%;
 }
@@ -93,12 +93,12 @@ p1{
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  margin-left: 2%;
-  margin-right: 2%;
+  margin-left: 0%;
+  margin-right: 0%;
   text-indent: 10%;
-  font-size: 260%;
+  font-size: 200%;
   color: gold;
-  width: 130%;
+  width: 199%;
 }
 
 /* Estilos para COLUNAS */
