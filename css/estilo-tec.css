@@ -66,8 +66,9 @@ h3{
   margin-left: 2%;
   margin-right: 2%;
   text-indent: 10%;
-  font-size: 160%;
+  font-size: 260%;
   color: gold;
+  width: 150%;
 }
 
 /* Estilos para PARAGRAFOS */
@@ -97,7 +98,7 @@ p1{
   text-indent: 10%;
   font-size: 280%;
   color: gold;
-  width: 199%;
+  width: 180%;
 }
 
 /* Estilos para COLUNAS */
@@ -120,7 +121,7 @@ p1{
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  font-size: 180%;
+  font-size: 120%;
   width: 48%;
   text-align: left;
   color: white;
@@ -131,7 +132,7 @@ p1{
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  font-size: 180%;
+  font-size: 120%;
   width: 48%;
   text-align: left;
   color: white;
@@ -198,5 +199,5 @@ footer {
   color: white;
   padding: 6px;
   font-size: 200%;
-  width: 99%;
+  width: 199%;
 }  
