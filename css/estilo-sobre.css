@@ -45,8 +45,8 @@ body.sobre {
   display: flex;
 }
 .menu li { 
-  margin-left: 14px;
-  margin-right: 14px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .menu li a {
   text-decoration: none;
