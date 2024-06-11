@@ -1,6 +1,6 @@
 Ju/* Estilos para o BODY */
 body.tec {
-  background-color: black;
+  background-color: red;
 }
 
 /* Para telas pequenas, como celulares */
@@ -135,7 +135,7 @@ p1{
   font-size: 140%;
   width: 48%;
   text-align: left;
-  color: black;
+  color: white;
 }
 
 .coltec3 {
