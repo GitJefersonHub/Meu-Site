@@ -96,7 +96,7 @@ p1{
   margin-left: 0%;
   margin-right: 0%;
   text-indent: 0%;
-  font-size: 260%;
+  font-size: 240%;
   color: gold;
   width: 199%;
 }
@@ -144,8 +144,8 @@ p1{
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  padding-left: 10%;
-  font-size: 200%;
+  padding-left: 0%;
+  font-size: 240%;
   color: silver;
   width: 199%;
 }
