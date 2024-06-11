@@ -22,7 +22,6 @@ body.sobre {
   }
  }
 
-
 /* Estilos para o menu de navegação */
 .navbar {
   display: flex;
@@ -71,11 +70,9 @@ h3{
 .sobre {
   background-image: url('   ');
   .sobre {
-  display: block;
-  margin: auto;
-  width: 200%;
-  height: 200%;
-
+  width: 190%;
+  height: 190%;
+  text-align: center;
   }
 }
 
@@ -90,7 +87,7 @@ p{
   margin-right: 2%;
   text-align: justify;
   text-indent: 10%;
-  font-size: 300%;
+  font-size: 280%;
   color: gold;
   width: 199%;
 }
@@ -104,7 +101,7 @@ p1{
   margin-right: 2%;
   text-align: left;
   text-indent: 0%;
-  font-size: 300%;
+  font-size: 280%;
   color: yellow;
   width: 199%;
 }
@@ -115,6 +112,6 @@ footer {
   text-align: center;
   color: white;
   padding: 6px;
-  font-size: 220%;
+  font-size: 200%;
   width: 199%;
 } 
