@@ -4,7 +4,7 @@ body.tec {
 }
 
 /* Para telas pequenas, como celulares */
-@media only screen and (max-width: 100%;) {
+@media only screen and (max-width: 600px) {
   .container {
   width: 110%;
   }
