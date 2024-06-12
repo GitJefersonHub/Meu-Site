@@ -5,7 +5,7 @@ body.tec {
 
 /* Para telas pequenas, como celulares */
 
-@media (max-width: 600px) {
+@media (max-width: 1600px) {
     .container {
         width: 111%;
     }
