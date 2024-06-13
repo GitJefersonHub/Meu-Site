@@ -183,7 +183,7 @@ p1{
   font-size: 300%; /* Tamanho da fonte */
   margin: auto;
   cursor: pointer; /* Cursor de mão ao passar o mouse */
-  width: 189%;
+  width: 198%;
 }
 .btn-estilizado2 {
   background-color: rgb(81, 219, 81); /* Cor de fundo do botão */
@@ -196,7 +196,7 @@ p1{
   font-size: 300%; /* Tamanho da fonte */
   margin: auto;
   cursor: pointer; /* Cursor de mão ao passar o mouse */
-  width: 189%;
+  width: 198%;
 }
 .btn-estilizado3 {
   background-color: rgb(90, 90, 245); /* Cor de fundo do botão */
@@ -209,7 +209,7 @@ p1{
   font-size: 300%; /* Tamanho da fonte */
   margin: auto;
   cursor: pointer; /* Cursor de mão ao passar o mouse */
-  width: 189%;
+  width: 198%;
 }
 
 /* Estilos para RODAPÉ */
@@ -219,5 +219,5 @@ footer {
   color: white;
   padding: 6px;
   font-size: 200%;
-  width: 199%;
+  width: 200%;
 }  

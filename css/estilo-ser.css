@@ -183,7 +183,7 @@ p1{
   font-size: 300%; /* Tamanho da fonte */
   margin: auto;
   cursor: pointer; /* Cursor de mão ao passar o mouse */
-  width: 189%;
+  width: 198%;
 }
 
 .btn-estilizado2 {
@@ -197,7 +197,7 @@ p1{
   font-size: 300%; /* Tamanho da fonte */
   margin: auto;
   cursor: pointer; /* Cursor de mão ao passar o mouse */
-  width: 189%;
+  width: 198%;
 }
 
 /* Estilos para BOTÃO */
@@ -212,7 +212,7 @@ p1{
   font-size: 300%; /* Tamanho da fonte */
   margin: auto;
   cursor: pointer; /* Cursor de mão ao passar o mouse */
-  width: 189%;
+  width: 198%;
 }
 
 /* Estilos para RODAPÉ */
@@ -222,5 +222,5 @@ footer {
   color: white;
   padding: 6px;
   font-size: 200%;
-  width: 199%;
+  width: 200%;
 } 
