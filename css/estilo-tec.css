@@ -6,7 +6,7 @@ body.tec {
 /* Para telas extra pequenas (celulares, menos de 480px) */
 @media only screen and (max-width: 480px) {
   .containertec {
-    width: 100%;
+    width: 160%;
     padding: 10px;
   }
 }
@@ -14,7 +14,7 @@ body.tec {
 /* Para telas pequenas (celulares, menos de 640px) */
 @media only screen and (max-width: 640px) {
   .containertec {
-    width: 90%;
+    width: 140%;
     padding: 15px;
   }
 }
@@ -168,7 +168,7 @@ p1{
   padding-left: 14%;
   font-size: 260%;
   color: silver;
-  width: 99%;
+  width: 190%;
 }
 
 /* Estilos para BOTÕES */
