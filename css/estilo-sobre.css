@@ -3,24 +3,45 @@ body.sobre {
   background-color: rgb(10, 4, 49);
 }
 
-/* Para telas pequenas, como celulares */
-@media only screen and (max-width: 600px) {
+/* Para telas extra pequenas (celulares, menos de 480px) */
+@media only screen and (max-width: 480px) {
   .container {
-  width: 110%;
+    width: 100%;
+    padding: 10px;
   }
- }
- /* Para telas médias, como tablets */
- @media only screen and (min-width: 601px) and (max-width: 768px) {
+}
+
+/* Para telas pequenas (celulares, menos de 640px) */
+@media only screen and (max-width: 640px) {
   .container {
-  width: 85%;
+    width: 90%;
+    padding: 15px;
   }
- }
- /* Para telas grandes, como desktops */
- @media only screen and (min-width: 769px) {
+}
+
+/* Para telas médias (tablets, 641px a 1024px) */
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
   .container {
-  width: 50%;
+    width: 85%;
+    padding: 20px;
   }
- }
+}
+
+/* Para telas grandes (desktops, mais de 1025px) */
+@media only screen and (min-width: 1025px) {
+  .container {
+    width: 70%;
+    padding: 25px;
+  }
+}
+
+/* Para telas extra grandes (desktops grandes, mais de 1200px) */
+@media only screen and (min-width: 1200px) {
+  .containersobre {
+    width: 48%;
+    padding: 30px;
+  }
+}
 
 /* Estilos para o menu de navegação */
 .navbar {
@@ -28,7 +49,7 @@ body.sobre {
   align-items: center;
   justify-content: space-between;
   background-color: rgb(248, 44, 44);
-  padding: 0px;
+  padding: 0%;
   width: 200%;
 }
 .logo {
@@ -39,13 +60,13 @@ body.sobre {
 }
 .menu {
   list-style: none;
-  margin: 1%;
+  margin: auto;
   padding: 0;
   display: flex;
 }
 .menu li { 
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 26%;
+  margin-right: 0%;
 }
 .menu li a {
   text-decoration: none;
@@ -70,9 +91,10 @@ h3{
 .sobre {
   background-image: url('   ');
   .sobre {
-  width: 190%;
-  height: 190%;
-  text-align: center;
+  width: 200%;
+  height: 200%;
+  display: block;
+  margin: auto;
   }
 }
 
@@ -87,7 +109,7 @@ p{
   margin-right: 2%;
   text-align: justify;
   text-indent: 10%;
-  font-size: 280%;
+  font-size: 260%;
   color: gold;
   width: 199%;
 }
@@ -101,7 +123,7 @@ p1{
   margin-right: 2%;
   text-align: left;
   text-indent: 0%;
-  font-size: 280%;
+  font-size: 260%;
   color: yellow;
   width: 199%;
 }
