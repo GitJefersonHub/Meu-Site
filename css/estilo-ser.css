@@ -6,7 +6,7 @@ body.ser {
 /* Para telas extra pequenas (celulares, menos de 480px) */
 @media only screen and (max-width: 480px) {
   .containerser {
-    width: 120%;
+    width: 200%;
     padding: 10px;
   }
 }
@@ -22,7 +22,7 @@ body.ser {
 /* Para telas médias (tablets, 641px a 1024px) */
 @media only screen and (min-width: 641px) and (max-width: 1024px) {
   .containerser {
-    width: 85%;
+    width: 100%;
     padding: 20px;
   }
 }

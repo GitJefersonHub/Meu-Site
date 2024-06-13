@@ -6,7 +6,7 @@ body.sobre {
 /* Para telas extra pequenas (celulares, menos de 480px) */
 @media only screen and (max-width: 480px) {
   .container {
-    width: 100%;
+    width: 200%;
     padding: 10px;
   }
 }
@@ -14,7 +14,7 @@ body.sobre {
 /* Para telas pequenas (celulares, menos de 640px) */
 @media only screen and (max-width: 640px) {
   .container {
-    width: 90%;
+    width: 200%;
     padding: 15px;
   }
 }
@@ -22,7 +22,7 @@ body.sobre {
 /* Para telas médias (tablets, 641px a 1024px) */
 @media only screen and (min-width: 641px) and (max-width: 1024px) {
   .container {
-    width: 85%;
+    width: 100%;
     padding: 20px;
   }
 }
