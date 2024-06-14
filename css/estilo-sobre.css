@@ -108,12 +108,13 @@ p{
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  padding: auto;
+  padding-left: 4%;
+  padding-right: 4%;
   text-align: justify;
   text-indent: 10%;
   font-size: 350%;
   color: gold;
-  width: 198%;
+  width: 188%;
 }
 p1{
   /* Para Android e iOS */
@@ -136,5 +137,5 @@ footer {
   color: white;
   padding: 6px;
   font-size: 300%;
-  width: 198%;
+  width: 180%;
 } 
