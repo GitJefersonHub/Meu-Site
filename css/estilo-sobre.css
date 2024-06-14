@@ -5,15 +5,15 @@ body.sobre {
 
 /* Para telas extra pequenas (celulares, menos de 480px) */
 @media only screen and (max-width: 480px) {
-  .container {
-    width: 200%;
+  .containersobre {
+    width: 220%;
     padding: 10px;
   }
 }
 
 /* Para telas pequenas (celulares, menos de 640px) */
 @media only screen and (max-width: 640px) {
-  .container {
+  .containersobre {
     width: 200%;
     padding: 15px;
   }
@@ -21,15 +21,15 @@ body.sobre {
 
 /* Para telas médias (tablets, 641px a 1024px) */
 @media only screen and (min-width: 641px) and (max-width: 1024px) {
-  .container {
-    width: 100%;
+  .containersobre {
+    width: 120%;
     padding: 20px;
   }
 }
 
 /* Para telas grandes (desktops, mais de 1025px) */
 @media only screen and (min-width: 1025px) {
-  .container {
+  .containersobre {
     width: 70%;
     padding: 25px;
   }
@@ -54,9 +54,10 @@ body.sobre {
 }
 .logo {
   color: white;
-  font-style:italic;
+  font-style: italic;
   margin-left: 2%;
-  margin-right: 2%; 
+  margin-right: 0%; 
+ text-decoration: underline;
 }
 .menu {
   list-style: none;
@@ -65,9 +66,10 @@ body.sobre {
   display: flex;
 }
 .menu li { 
-  margin-left: 26%;
+  margin-left: 05%;
   margin-right: 0%;
 }
+
 .menu li a {
   text-decoration: none;
   color: yellow;
@@ -78,13 +80,13 @@ body.sobre {
   font-family: Arial, Helvetica, sans-serif;
 }
 h1{
-  font-size: 200%;
+  font-size: 400%;
 }
 h2{
-  font-size: 180%;
+  font-size: 300%;
 }
 h3{
-  font-size: 160%;
+  font-size: 200%;
 }
 
 /* Estilos para IMAGENS */
@@ -109,7 +111,7 @@ p{
   margin-right: 2%;
   text-align: justify;
   text-indent: 10%;
-  font-size: 260%;
+  font-size: 300%;
   color: gold;
   width: 199%;
 }
@@ -123,7 +125,7 @@ p1{
   margin-right: 2%;
   text-align: left;
   text-indent: 0%;
-  font-size: 260%;
+  font-size: 300%;
   color: yellow;
   width: 199%;
 }
@@ -134,6 +136,6 @@ footer {
   text-align: center;
   color: white;
   padding: 6px;
-  font-size: 200%;
+  font-size: 260%;
   width: 200%;
 } 
