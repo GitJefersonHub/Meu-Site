@@ -50,7 +50,7 @@ body.sobre {
   justify-content: space-between;
   background-color: rgb(248, 44, 44);
   padding: 0%;
-  width: 198%;
+  width: 196%;
 }
 .logo {
   color: white;
@@ -94,10 +94,9 @@ h3{
 .sobre {
   background-image: url('   ');
   .sobre {
-  width: 198%;
-  height: 198%;
-  display: block;
-  margin: auto;
+  width: 160%;
+  height: 160%;
+  padding-left: 19%;
   }
 }
 
@@ -122,12 +121,13 @@ p1{
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  padding: auto;
+  padding-left: 4%;
+  padding-right: 4%;
   text-align: left;
   text-indent: 0%;
   font-size: 350%;
   color: yellow;
-  width: 198%;
+  width: 196%;
 }
 
 /* Estilos para RODAPÉ */
@@ -137,5 +137,5 @@ footer {
   color: white;
   padding: 6px;
   font-size: 300%;
-  width: 180%;
+  width: 196%;
 } 
