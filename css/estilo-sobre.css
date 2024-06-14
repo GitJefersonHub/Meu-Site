@@ -50,7 +50,7 @@ body.sobre {
   justify-content: space-between;
   background-color: rgb(248, 44, 44);
   padding: 0%;
-  width: 200%;
+  width: 199%;
 }
 .logo {
   color: white;
@@ -66,8 +66,9 @@ body.sobre {
   display: flex;
 }
 .menu li { 
-  margin-left: 05%;
+  margin-left: 04%;
   margin-right: 0%;
+  padding: auto;
 }
 
 .menu li a {
@@ -93,8 +94,8 @@ h3{
 .sobre {
   background-image: url('   ');
   .sobre {
-  width: 200%;
-  height: 200%;
+  width: 199%;
+  height: 199%;
   display: block;
   margin: auto;
   }
@@ -107,11 +108,10 @@ p{
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  margin-left: 2%;
-  margin-right: 2%;
+  padding: auto;
   text-align: justify;
   text-indent: 10%;
-  font-size: 300%;
+  font-size: 350%;
   color: gold;
   width: 199%;
 }
@@ -125,7 +125,7 @@ p1{
   margin-right: 2%;
   text-align: left;
   text-indent: 0%;
-  font-size: 300%;
+  font-size: 350%;
   color: yellow;
   width: 199%;
 }
@@ -136,6 +136,6 @@ footer {
   text-align: center;
   color: white;
   padding: 6px;
-  font-size: 260%;
-  width: 200%;
+  font-size: 300%;
+  width: 199%;
 } 
