@@ -22,7 +22,7 @@ body.ser {
 /* Para telas médias (tablets, 641px a 1024px) */
 @media only screen and (min-width: 641px) and (max-width: 1024px) {
   .containerser {
-    width: 100%;
+    width: 150%;
     padding: 20px;
   }
 }
