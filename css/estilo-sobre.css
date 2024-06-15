@@ -6,7 +6,7 @@ body.sobre {
 /* Para telas extra pequenas (celulares, menos de 480px) */
 @media only screen and (max-width: 480px) {
   .containersobre {
-    width: 220%;
+    width: 110%;
     padding: 10px;
   }
 }
@@ -14,7 +14,7 @@ body.sobre {
 /* Para telas pequenas (celulares, menos de 640px) */
 @media only screen and (max-width: 640px) {
   .containersobre {
-    width: 200%;
+    width: 100%;
     padding: 15px;
   }
 }
@@ -22,7 +22,7 @@ body.sobre {
 /* Para telas médias (tablets, 641px a 1024px) */
 @media only screen and (min-width: 641px) and (max-width: 1024px) {
   .containersobre {
-    width: 120%;
+    width: 60%;
     padding: 20px;
   }
 }
@@ -30,7 +30,7 @@ body.sobre {
 /* Para telas grandes (desktops, mais de 1025px) */
 @media only screen and (min-width: 1025px) {
   .containersobre {
-    width: 70%;
+    width: 35%;
     padding: 25px;
   }
 }
@@ -38,10 +38,14 @@ body.sobre {
 /* Para telas extra grandes (desktops grandes, mais de 1200px) */
 @media only screen and (min-width: 1200px) {
   .containersobre {
-    width: 48%;
+    width: 24%;
     padding: 30px;
   }
 }
+
+
+
+
 
 /* Estilos para o menu de navegação */
 .navbar {
