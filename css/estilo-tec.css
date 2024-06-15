@@ -6,7 +6,7 @@ body.tec {
 /* Para telas extra pequenas (celulares, menos de 480px) */
 @media only screen and (max-width: 480px) {
   .containertec {
-    width: 200%;
+    width: 220%;
     padding: 10px;
   }
 }
@@ -14,7 +14,7 @@ body.tec {
 /* Para telas pequenas (celulares, menos de 640px) */
 @media only screen and (max-width: 640px) {
   .containertec {
-    width: 150%;
+    width: 200%;
     padding: 15px;
   }
 }
@@ -22,7 +22,7 @@ body.tec {
 /* Para telas médias (tablets, 641px a 1024px) */
 @media only screen and (min-width: 641px) and (max-width: 1024px) {
   .containertec {
-    width: 50%;
+    width: 120%;
     padding: 20px;
   }
 }
