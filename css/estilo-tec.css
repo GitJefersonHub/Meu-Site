@@ -14,7 +14,7 @@ body.tec {
 /* Para telas pequenas (celulares, menos de 640px) */
 @media only screen and (max-width: 640px) {
   .containertec {
-    width: 200%;
+    width: 150%;
     padding: 15px;
   }
 }
