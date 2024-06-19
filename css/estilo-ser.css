@@ -110,8 +110,13 @@
 }
 
 /* Estilos para o BODY */
+html, body {
+  height: 100%;
+}
 body.ser {
   background-color: silver;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 /* Estilos para o menu de navegação */
