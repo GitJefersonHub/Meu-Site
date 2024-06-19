@@ -6,7 +6,7 @@ body.sobre {
 /* Para telas extra pequenas (celulares, menos de 480px) */
 @media only screen and (max-width: 480px) {
   .containersobre {
-    width: 110%;
+    width: 220%;
     padding: 10px;
   }
 }
@@ -14,7 +14,7 @@ body.sobre {
 /* Para telas pequenas (celulares, menos de 640px) */
 @media only screen and (max-width: 640px) {
   .containersobre {
-    width: 100%;
+    width: 200%;
     padding: 15px;
   }
 }
@@ -22,7 +22,7 @@ body.sobre {
 /* Para telas médias (tablets, 641px a 1024px) */
 @media only screen and (min-width: 641px) and (max-width: 1024px) {
   .containersobre {
-    width: 60%;
+    width: 120%;
     padding: 20px;
   }
 }
@@ -30,7 +30,7 @@ body.sobre {
 /* Para telas grandes (desktops, mais de 1025px) */
 @media only screen and (min-width: 1025px) {
   .containersobre {
-    width: 35%;
+    width: 70%;
     padding: 25px;
   }
 }
@@ -38,7 +38,7 @@ body.sobre {
 /* Para telas extra grandes (desktops grandes, mais de 1200px) */
 @media only screen and (min-width: 1200px) {
   .containersobre {
-    width: 24%;
+    width: 48%;
     padding: 30px;
   }
 }
@@ -98,9 +98,9 @@ h3{
 .sobre {
   background-image: url('   ');
   .sobre {
-  width: 140%;
-  height: 140%;
-  padding-left: 28%;
+  width: 100%;
+  height: 100%;
+  padding-left: 48%;
   }
 }
 
