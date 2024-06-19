@@ -1,8 +1,3 @@
-/* Estilos para o BODY */
-body.sobre {
-  background-color: rgb(10, 4, 49);
-}
-
 /* Para telas extra pequenas (celulares, menos de 480px) */
 @media only screen and (max-width: 480px) {
   .containersobre {
@@ -10,7 +5,6 @@ body.sobre {
     padding: 10px;
   }
 }
-
 /* Para telas pequenas (celulares, menos de 640px) */
 @media only screen and (max-width: 640px) {
   .containersobre {
@@ -18,7 +12,6 @@ body.sobre {
     padding: 15px;
   }
 }
-
 /* Para telas médias (tablets, 641px a 1024px) */
 @media only screen and (min-width: 641px) and (max-width: 1024px) {
   .containersobre {
@@ -26,7 +19,6 @@ body.sobre {
     padding: 20px;
   }
 }
-
 /* Para telas grandes (desktops, mais de 1025px) */
 @media only screen and (min-width: 1025px) {
   .containersobre {
@@ -34,7 +26,6 @@ body.sobre {
     padding: 25px;
   }
 }
-
 /* Para telas extra grandes (desktops grandes, mais de 1200px) */
 @media only screen and (min-width: 1200px) {
   .containersobre {
@@ -43,9 +34,10 @@ body.sobre {
   }
 }
 
-
-
-
+/* Estilos para o BODY */
+body.sobre {
+  background-color: rgb(10, 4, 49);
+}
 
 /* Estilos para o menu de navegação */
 .navbar {

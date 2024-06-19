@@ -1,98 +1,43 @@
-/* Estilos para o BODY */
-body.ser {
-  background-color: silver;
-}
-
-
 /* Para telas extra pequenas (celulares, menos de 480px) */
 @media only screen and (max-width: 480px) {
-  .containerbodyser {
+  .containerser {
     width: 220%;
     padding: 10px;
   }
 }
-
 /* Para telas pequenas (celulares, menos de 640px) */
 @media only screen and (max-width: 640px) {
-  .containerbodyser {
+  .containerser {
     width: 200%;
     padding: 15px;
   }
 }
-
 /* Para telas médias (tablets, 641px a 1024px) */
 @media only screen and (min-width: 641px) and (max-width: 1024px) {
-  .containerbodyser {
+  .containerser {
     width: 120%;
     padding: 20px;
   }
 }
-
 /* Para telas grandes (desktops, mais de 1025px) */
 @media only screen and (min-width: 1025px) {
-  .containerbodyser {
+  .containerser {
     width: 70%;
     padding: 25px;
   }
 }
-
 /* Para telas extra grandes (desktops grandes, mais de 1200px) */
 @media only screen and (min-width: 1200px) {
-  .containerbodyser {
+  .containerser {
     width: 48%;
     padding: 30px;
   }
 }
 
-
-
-
-
-/* Para telas extra pequenas (celulares, menos de 480px) */
-@media only screen and (max-width: 480px) {
-  .containerimgser {
-    width: 220%;
-    padding: 10px;
-  }
+/* Estilos para o BODY */
+body.ser {
+  background-color: silver;
 }
-
-/* Para telas pequenas (celulares, menos de 640px) */
-@media only screen and (max-width: 640px) {
-  .containerimgser {
-    width: 200%;
-    padding: 15px;
-  }
-}
-
-/* Para telas médias (tablets, 641px a 1024px) */
-@media only screen and (min-width: 641px) and (max-width: 1024px) {
-  .containerimgser {
-    width: 120%;
-    padding: 20px;
-  }
-}
-
-/* Para telas grandes (desktops, mais de 1025px) */
-@media only screen and (min-width: 1025px) {
-  .containerimgser {
-    width: 160%;
-    padding: 25px;
-  }
-}
-
-/* Para telas extra grandes (desktops grandes, mais de 1200px) */
-@media only screen and (min-width: 1200px) {
-  .containerimgser {
-    width: 120%;
-    padding: 30px;
-  }
-}
-
-
-
-
-
-
 
 /* Estilos para o menu de navegação */
 .navbar {
@@ -223,10 +168,6 @@ h3{
   }
 }
 
-
-
-
-
 /* Estilos para PARAGRAFOS */
 p{
   /* Para Android e iOS */
@@ -234,8 +175,8 @@ p{
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
- padding-left: 4%;
- padding-right: 4%;
+  padding-left: 4%;
+  padding-right: 4%;
   text-align: justify;
   text-indent: 10%;
   font-size: 350%;
@@ -297,13 +238,6 @@ p1{
   width: 174%;
   text-align: left;
 }
-
-
-
-
-
-
-
 
 /* Estilos para BOTÃO */
 .btn-estilizado1 {
