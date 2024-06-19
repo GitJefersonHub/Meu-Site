@@ -1,14 +1,14 @@
 /* Para telas extra pequenas (celulares, menos de 480px) */
 @media only screen and (max-width: 480px) {
   .containerser {
-    width: 220%;
+    width: 120%;
     padding: 10px;
   }
 }
 /* Para telas pequenas (celulares, menos de 640px) */
 @media only screen and (max-width: 640px) {
   .containerser {
-    width: 200%;
+    width: 100%;
     padding: 15px;
   }
 }
