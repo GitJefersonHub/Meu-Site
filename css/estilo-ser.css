@@ -1,7 +1,7 @@
 /* Para telas extra pequenas (celulares, menos de 480px) */
 @media only screen and (max-width: 480px) {
   .containerser {
-    width: 50px;
+    width: 2%;
     padding: 10px;
   }
 
@@ -45,6 +45,9 @@
 /* Para telas pequenas (celulares, menos de 640px) */
 @media only screen and (mind-width: 640px) {
   .containerser {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
     width: 210%;
     padding: 15px;
   }
