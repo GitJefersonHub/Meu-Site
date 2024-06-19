@@ -3,15 +3,13 @@
   .containerser {
     width: 220%;
     padding: 10px;
-    font-size: large;
   }
 }
 /* Para telas pequenas (celulares, menos de 640px) */
 @media only screen and (max-width: 640px) {
   .containerser {
-    width: 200%;
+    width: 210%;
     padding: 15px;
-    font-size: large;
   }
 }
 /* Para telas médias (tablets, 641px a 1024px) */
@@ -39,6 +37,9 @@
 /* Estilos para o BODY */
 body.ser {
   background-color: silver;
+  max-width: 100%;
+  padding: 0;
+  margin: 0 auto;
 }
 
 /* Estilos para o menu de navegação */
