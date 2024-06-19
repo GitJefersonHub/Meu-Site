@@ -1,15 +1,17 @@
 /* Para telas extra pequenas (celulares, menos de 480px) */
 @media only screen and (max-width: 480px) {
   .containerser {
-    width: 120%;
+    width: 220%;
     padding: 10px;
+    font-size: large;
   }
 }
 /* Para telas pequenas (celulares, menos de 640px) */
 @media only screen and (max-width: 640px) {
   .containerser {
-    width: 100%;
+    width: 200%;
     padding: 15px;
+    font-size: large;
   }
 }
 /* Para telas médias (tablets, 641px a 1024px) */
