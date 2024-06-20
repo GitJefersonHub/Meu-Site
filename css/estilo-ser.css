@@ -1,65 +1,45 @@
 /* Para telas extra pequenas (celulares, menos de 480px) */
 @media only screen and (max-width: 480px) {
   .containerser {
-    width: 220%;
+    width: 2200%;
     padding: 10px;
-    display: block;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 /* Para telas pequenas (celulares, menos de 640px) */
-
 @media only screen and (max-width: 640px) {
   /* Estilos aplicados em telas de até 770px de largura */
   .containerser {
-    width: 200%;
+    width: 2000%;
     padding: 15px;
   }
  }
- 
 /* Para telas médias (tablets, 641px a 1024px) */
 @media only screen and (min-width: 641px) and (max-width: 1024px) {
   .containerser {
-    width: 120%;
+    width: 1200%;
     padding: 20px;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Para telas grandes (desktops, mais de 1025px) */
 @media only screen and (min-width: 1025px) {
   .containerser {
