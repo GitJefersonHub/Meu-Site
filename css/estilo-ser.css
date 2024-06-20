@@ -45,12 +45,9 @@
 /* Para telas pequenas (celulares, menos de 640px) */
 @media screen and (max-width: 770px) {
   /* Estilos aplicados em telas de até 770px de largura */
-  .containertec {
+  .containerser {
     width: 200%;
     padding: 15px;
-  }
-  .texto {
-  color: red;
   }
  }
  
