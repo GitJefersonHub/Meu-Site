@@ -45,7 +45,8 @@
 /* Para telas pequenas (celulares, menos de 640px) */
 @media only screen and (min-width: 640px) {
   .containerser {
-    width: 200%;
+    max-width: 100%;
+    
     padding: 15px;
   }
 }
@@ -108,13 +109,9 @@
 
 /* Estilos para o BODY */
 
-html {
-  min-height: 100%;
-}
 
 body.ser {
   background-color: silver;
-  min-height: 100%;
 }
 
 /* Estilos para o menu de navegação */
