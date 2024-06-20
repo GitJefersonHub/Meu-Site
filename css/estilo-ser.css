@@ -79,7 +79,7 @@
 
 body.ser {
   background-color: silver;
-  height: 30%;
+  display: block;
 }
 
 /* Estilos para o menu de navegação */
