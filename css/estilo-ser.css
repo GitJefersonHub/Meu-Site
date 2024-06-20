@@ -79,7 +79,7 @@
 
 body.ser {
   background-color: silver;
-  display: block;
+  display: flexbox;
 }
 
 /* Estilos para o menu de navegação */
