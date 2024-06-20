@@ -1,7 +1,7 @@
 /* Para telas extra pequenas (celulares, menos de 480px) */
 @media only screen and (max-width: 480px) {
   .containerser {
-    width: 2200%;
+    width: 160%;
     padding: 10px;
   }
 }
@@ -9,7 +9,7 @@
 @media only screen and (max-width: 640px) {
   /* Estilos aplicados em telas de até 770px de largura */
   .containerser {
-    width: 2000%;
+    width: 120%;
     padding: 15px;
   }
  }
