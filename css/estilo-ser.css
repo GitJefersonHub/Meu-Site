@@ -43,11 +43,8 @@
 
 }
 /* Para telas pequenas (celulares, menos de 640px) */
-@media only screen and (max-width: 640px) {
+@media only screen and (min-width: 640px) {
   .containerser {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
     width: 200%;
     padding: 15px;
   }
@@ -110,13 +107,14 @@
 }
 
 /* Estilos para o BODY */
-html, body {
-  height: 100%;
+
+html {
+  min-height: 100%;
 }
+
 body.ser {
   background-color: silver;
-  max-width: 100%;
-  margin: 0 auto;
+  min-height: 100%;
 }
 
 /* Estilos para o menu de navegação */
