@@ -43,7 +43,7 @@
 
 }
 /* Para telas pequenas (celulares, menos de 640px) */
-@media only screen and (max-width: 640px) {
+@media (max-width: 640px) {
   .containerser {
     width: 200%;
     padding: 15px;
