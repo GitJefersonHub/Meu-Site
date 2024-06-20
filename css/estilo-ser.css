@@ -3,6 +3,7 @@
   .containerser {
     width: 220%;
     padding: 10px;
+    display: block;
   }
 
 
@@ -79,7 +80,6 @@
 
 body.ser {
   background-color: silver;
-  display: flexbox;
 }
 
 /* Estilos para o menu de navegação */
