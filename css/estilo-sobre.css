@@ -1,38 +1,40 @@
 /* Para telas extra pequenas (celulares, menos de 480px) */
 @media only screen and (max-width: 480px) {
-  .containersobre {
+  .containerser {
     width: 220%;
     padding: 10px;
   }
 }
 /* Para telas pequenas (celulares, menos de 640px) */
 @media only screen and (max-width: 640px) {
-  .containersobre {
+  /* Estilos aplicados em telas de até 770px de largura */
+  .containerser {
     width: 200%;
     padding: 15px;
   }
-}
+ }
 /* Para telas médias (tablets, 641px a 1024px) */
 @media only screen and (min-width: 641px) and (max-width: 1024px) {
-  .containersobre {
+  .containerser {
     width: 120%;
-    padding: 20px;
+    padding: 20%;
   }
 }
 /* Para telas grandes (desktops, mais de 1025px) */
 @media only screen and (min-width: 1025px) {
-  .containersobre {
+  .containerser {
     width: 70%;
     padding: 25px;
   }
 }
 /* Para telas extra grandes (desktops grandes, mais de 1200px) */
 @media only screen and (min-width: 1200px) {
-  .containersobre {
+  .containerser {
     width: 48%;
     padding: 30px;
   }
 }
+
 
 /* Estilos para o BODY */
 body.sobre {
@@ -42,35 +44,32 @@ body.sobre {
 /* Estilos para o menu de navegação */
 .navbar {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
   background-color: rgb(248, 44, 44);
   padding: 0%;
-  width: 196%;
+  width: 200%;
 }
 .logo {
   color: white;
   font-style: italic;
-  margin-left: 2%;
-  margin-right: 0%; 
+  padding: 2%;
   text-decoration: underline;
 }
 .menu {
   list-style: none;
   margin: auto;
-  padding: 0;
+  padding: 2%;
   display: flex;
 }
 .menu li { 
-  margin-left: 04%;
-  margin-right: 0%;
-  padding: auto;
+  padding: 2%
 }
-
 .menu li a {
+  text-align: end;
   text-decoration: none;
   color: yellow;
+  padding: 2%;
 }
+
 
 /* Estilos para FONTES */
 .font {
@@ -128,10 +127,11 @@ p1{
 
 /* Estilos para RODAPÉ */
 footer {
+  display:block;
   background-color: blue;
   text-align: center;
   color: white;
-  padding: 6px;
-  font-size: 300%;
-  width: 196%;
+  padding: 0%;
+  font-size: 280%;
+  width: 200%;
 } 

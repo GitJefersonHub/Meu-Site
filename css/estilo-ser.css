@@ -83,18 +83,18 @@ h2{
   font-size: 300%;
 }
 h3{
-  padding-left: 4%;
-  text-indent: 10%;
+  padding-left: 2%;
+  text-indent: 8%;
   font-size: 300%;
   color: black;
-  width: 196%;
+  width: 198%;
 }
 
 
 /* Estilos para COLUNAS */
 /* grid 100%*/
 .linha {
-  width: 400%;
+  width: 200%;
   margin: auto;
   overflow: auto;
   padding: 0% 0;
@@ -138,7 +138,6 @@ h3{
   width: 14%;
   height: 14%;
   float: left;
- 
   }
 }
 /* Estilos para IMAGENS */
@@ -149,7 +148,6 @@ h3{
   width: 14%;
   height: 14%;
   float: left;
-  
   }
 }
 /* Estilos para IMAGENS */
@@ -171,13 +169,13 @@ p{
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  padding-left: 4%;
-  padding-right: 4%;
+  padding-left: 2%;
+  padding-right: 2%;
   text-align: justify;
-  text-indent: 10%;
+  text-indent: 8%;
   font-size: 350%;
   color: black;
-  width: 190%;
+  width: 198%;
 }
 p1{
   /* Para Android e iOS */
@@ -185,12 +183,12 @@ p1{
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  padding-left: 4%;
-  padding-right: 4%;
-  text-indent: 0%;
+  padding-left: 2%;
+  padding-right: 2%;
+  text-indent: 8%;
   font-size: 350%;
   color: blue;
-  width: 190;
+  width: 198;
 }
 
 
@@ -213,8 +211,8 @@ p1{
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  padding-left: 12%;
-  padding-right: 4%;
+  padding-left: 10%;
+  padding-right: 2%;
   font-size: 320%;
   width: 82%;
   text-align: left;
@@ -226,8 +224,8 @@ p1{
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  padding-left: 26%;
-  padding-right: 4%;
+  padding-left: 21%;
+  padding-right: 2%;
   font-size: 320%;
   width: 174%;
   text-align: left;
@@ -284,6 +282,6 @@ footer {
   text-align: center;
   color: white;
   padding: 0%;
-  font-size: 300%;
+  font-size: 280%;
   width: 200%;
 } 
