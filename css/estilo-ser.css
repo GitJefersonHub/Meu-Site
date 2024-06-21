@@ -9,7 +9,7 @@
 @media only screen and (max-width: 640px) {
   /* Estilos aplicados em telas de até 770px de largura */
   .containerser {
-    width: 200%;
+    width: 210%;
     padding: 15px;
   }
  }
@@ -17,7 +17,7 @@
 @media only screen and (min-width: 641px) and (max-width: 1024px) {
   .containerser {
     width: 90%;
-    padding: 20px;
+    padding: 10px;
   }
 }
 /* Para telas grandes (desktops, mais de 1025px) */
