@@ -30,7 +30,7 @@
 /* Para telas extra grandes (desktops grandes, mais de 1200px) */
 @media only screen and (min-width: 1200px) {
   .containerser {
-    width: 48%;
+    width: 95%;
     padding: 30px;
   }
 }
