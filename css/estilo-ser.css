@@ -17,7 +17,7 @@
 @media only screen and (min-width: 641px) and (max-width: 1024px) {
   .containerser {
     width: 120%;
-  
+    padding: 20%;
   }
 }
 /* Para telas grandes (desktops, mais de 1025px) */
@@ -47,7 +47,7 @@ body.ser {
   display: flex;
   background-color: rgb(248, 44, 44);
   padding: 0%;
-  width: 198%;
+  width: 200%;
 }
 .logo {
   color: white;
@@ -284,5 +284,5 @@ footer {
   color: white;
   padding: 6px;
   font-size: 300%;
-  width: 196%;
+  width: 200%;
 } 
