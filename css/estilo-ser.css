@@ -40,8 +40,6 @@
 body.ser {
   background-color: silver;
 }
-
-
 /* Estilos para o menu de navegação */
 .navbar {
   display: flex;
@@ -91,7 +89,7 @@ h3{
 }
 
 
-/* Estilos para COLUNAS */
+/* Estilos para COLUNAS img */
 /* grid 100%*/
 .linha {
   width: 200%;
@@ -192,7 +190,7 @@ p1{
 }
 
 
-/* Estilos para COLUNAS */
+/* Estilos para COLUNAS lista*/
 /* grid 100%*/
 .linha {
   width: 100%;
