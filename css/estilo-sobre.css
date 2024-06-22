@@ -1,7 +1,7 @@
 /* Para telas extra pequenas (celulares, menos de 480px) */
 @media only screen and (max-width: 480px) {
   .containersobre {
-    width: 460%;
+    width: 480%;
     padding: 10px;
   }
 }
@@ -9,7 +9,7 @@
 @media only screen and (max-width: 640px) {
   /* Estilos aplicados em telas de até 770px de largura */
   .containersobre {
-    width: 380%;
+    width: 400%;
     padding: 15px;
   }
  }
