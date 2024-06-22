@@ -139,9 +139,10 @@ p1{
   -ms-hyphens: auto;
   hyphens: auto;
   font-size: 220%;
-  width: 50%;
+  width: 48%;
   text-align: left;
   color: white;
+  padding-left: 2%;
 }
 .coltec2 {
 /* Para Android e iOS */
@@ -150,9 +151,10 @@ p1{
   -ms-hyphens: auto;
   hyphens: auto;
   font-size: 220%;
-  width: 50%;
+  width: 48%;
   text-align: left;
   color: white;
+  padding-right: 2%;
 }
 
 .coltec3 {
