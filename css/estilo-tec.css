@@ -1,7 +1,7 @@
 /* Para telas extra pequenas (celulares, menos de 480px) */
 @media only screen and (max-width: 480px) {
   .containertec {
-    width: 420%;
+    width: 440%;
     padding: 10px;
   }
 }
@@ -9,7 +9,7 @@
 @media only screen and (max-width: 640px) {
   /* Estilos aplicados em telas de até 770px de largura */
   .containertec {
-    width: 300%;
+    width: 360%;
     padding: 15px;
   }
  }
