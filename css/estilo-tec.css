@@ -9,7 +9,7 @@
 @media only screen and (max-width: 640px) {
   /* Estilos aplicados em telas de até 770px de largura */
   .containertec {
-    width: 200%;
+    width: 100%;
     padding: 15px;
   }
  }
