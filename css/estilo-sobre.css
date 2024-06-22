@@ -44,7 +44,6 @@ body.sobre {
 .navbar {
   display: flex;
   background-color: rgb(248, 44, 44);
-  padding: 0%;
   width: 100%;
 }
 .logo {
@@ -63,7 +62,6 @@ body.sobre {
   padding: 2%
 }
 .menu li a {
-  text-align: end;
   text-decoration: none;
   color: yellow;
   padding: 2%;
