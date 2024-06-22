@@ -89,8 +89,8 @@ h3{
 .sobre {
   background-image: url('   ');
   .sobre {
-  width: 40%;
-  height: 40%;
+  width: 42%;
+  height: 42%;
   padding-left: 28%;
   }
 }
@@ -132,7 +132,7 @@ footer {
   background-color: blue;
   text-align: center;
   color: white;
-  padding: 0%;
+  padding: 1%;
   font-size: 280%;
   width: 100%;
 } 
