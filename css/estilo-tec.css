@@ -129,8 +129,7 @@ p1{
   padding: 0% 0;
 }
 .colunatec {
-  margin: auto;
-  padding: 0% 0;
+  width: 100%;
   float: left;
   color: white;
 }
@@ -153,7 +152,7 @@ p1{
   -ms-hyphens: auto;
   hyphens: auto;
   font-size: 220%;
-  width: 48%;
+  width: 50%;
   text-align: left;
   color: white;
   padding-right: 0%;
