@@ -44,29 +44,29 @@ body.tec {
 .navbar {
   display: flex;
   background-color: rgb(248, 44, 44);
-  padding: 0%;
   width: 100%;
 }
 .logo {
   color: white;
   font-style: italic;
-  padding: 2%;
+  padding-left: 1%;
+  padding-right: 1%;
   text-decoration: underline;
 }
 .menu {
   list-style: none;
   margin: auto;
-  padding: 2%;
+  padding-left: 1%;
+  padding-right: 2%;
   display: flex;
 }
 .menu li { 
-  padding: 2%
+  padding: 1%
 }
 .menu li a {
-  text-align: end;
   text-decoration: none;
   color: yellow;
-  padding: 2%;
+  padding-right: 0%;
 }
 
 
@@ -75,17 +75,17 @@ body.tec {
   font-family: Arial, Helvetica, sans-serif;
 }
 h1{
-  font-size: 400%;
+  font-size: 390%;
 }
 h2{
-  font-size: 300%;
+  font-size: 370%;
 }
 h3{
-  padding-left: 2%;
-  text-indent: 8%;
-  font-size: 300%;
+  padding-left: 1%;
+  text-indent: 10%;
+  font-size: 340%;
   color: gold;
-  width: 96%;
+  width: 100%;
 }
 
 
@@ -96,13 +96,13 @@ p{
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  padding-left: 2%;
-  padding-right: 2%;
+  padding-left: 1%;
+  padding-right: 1%;
   text-align: justify;
-  text-indent: 8%;
-  font-size: 350%;
+  text-indent: 10%;
+  font-size: 380%;
   color: silver;
-  width: 94%;
+  width: 100%;
 }
 p1{
 /* Para Android e iOS */
@@ -110,12 +110,12 @@ p1{
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  padding-left: 2%;
-  padding-right: 2%;
+  padding-left: 1%;
+  padding-right: 1%;
   text-indent: 8%;
-  font-size: 350%;
+  font-size: 380%;
   color: gold;
-  width: 99%;
+  width: 100%;
 }
 
 /* Estilos para COLUNAS */
@@ -154,7 +154,7 @@ p1{
   width: 48%;
   text-align: left;
   color: white;
-  padding-right: 2%;
+  padding-right: 0%;
 }
 
 .coltec3 {
@@ -164,9 +164,9 @@ p1{
   -ms-hyphens: auto;
   hyphens: auto;
   padding-left: 10%;
-  font-size: 310%;
+  font-size: 320%;
   color: silver;
-  width: 90%;
+  width: 92%;
 }
 
 /* Estilos para BOTÕES */

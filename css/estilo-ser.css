@@ -41,32 +41,33 @@ body.ser {
   background-color: silver;
 }
 /* Estilos para o menu de navegação */
+/* Estilos para o menu de navegação */
 .navbar {
   display: flex;
   background-color: rgb(248, 44, 44);
-  padding: 0%;
   width: 100%;
 }
 .logo {
   color: white;
   font-style: italic;
-  padding: 2%;
+  padding-left: 1%;
+  padding-right: 1%;
   text-decoration: underline;
 }
 .menu {
   list-style: none;
   margin: auto;
-  padding: 2%;
+  padding-left: 1%;
+  padding-right: 2%;
   display: flex;
 }
 .menu li { 
-  padding: 2%
+  padding: 1%
 }
 .menu li a {
-  text-align: end;
   text-decoration: none;
   color: yellow;
-  padding: 2%;
+  padding-right: 0%;
 }
 
 
@@ -75,17 +76,17 @@ body.ser {
   font-family: Arial, Helvetica, sans-serif;
 }
 h1{
-  font-size: 400%;
+  font-size: 390%;
 }
 h2{
-  font-size: 300%;
+  font-size: 370%;
 }
 h3{
-  padding-left: 2%;
-  text-indent: 8%;
-  font-size: 300%;
+  padding-left: 1%;
+  text-indent: 10%;
+  font-size: 340%;
   color: black;
-  width: 98%;
+  width: 100%;
 }
 
 
@@ -105,16 +106,17 @@ h3{
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  padding-left: 1%;
-  padding-right: 1%;
+  padding-left: 0%;
+  padding-right: 0%;
   width: 200%;
 }
 .ser {
   background-image: url('   ');
   .ser1 {
-    padding: 1%;
-  width: 28%;
-  height: 28%;
+  padding-left: 1%;
+  padding-right: 1%;
+  width: 30%;
+  height: 30%;
   float:inline-start;
   }
 }
@@ -122,9 +124,10 @@ h3{
 .ser {
   background-image: url('   ');
   .ser2 {
-    padding: 1%;
-  width: 13%;
-  height: 13%;
+  padding-left: 1%;
+  padding-right: 1%;
+  width: 14%;
+  height: 14%;
   float:left;
   }
 }
@@ -132,9 +135,10 @@ h3{
 .ser {
   background-image: url('   ');
   .ser3 {
-    padding: 1%;
-  width: 13%;
-  height: 13%;
+  padding-left: 1%;
+  padding-right: 1%;
+  width: 14%;
+  height: 14%;
   float: left;
   }
 }
@@ -142,9 +146,10 @@ h3{
 .ser {
   background-image: url('   ');
   .ser4 {
-    padding: 1%;
-  width: 13%;
-  height: 13%;
+  padding-left: 1%;
+  padding-right: 1%;
+  width: 14%;
+  height: 14%;
   float: left;
   }
 }
@@ -152,9 +157,10 @@ h3{
 .ser {
   background-image: url('   ');
   .ser5 {
-    padding: 1%;
-  width: 13%;
-  height: 13%;
+  padding-left: 1%;
+  padding-right: 1%;
+  width: 14%;
+  height: 14%;
   float: left;
   }
 }
@@ -167,13 +173,13 @@ p{
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  padding-left: 2%;
-  padding-right: 2%;
+  padding-left: 1%;
+  padding-right: 1%;
   text-align: justify;
-  text-indent: 8%;
-  font-size: 350%;
+  text-indent: 10%;
+  font-size: 380%;
   color: black;
-  width: 99%;
+  width: 100%;
 }
 p1{
   /* Para Android e iOS */
@@ -181,12 +187,12 @@ p1{
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  padding-left: 2%;
-  padding-right: 2%;
-  text-indent: 8%;
-  font-size: 350%;
+  padding-left: 1%;
+  padding-right: 1%;
+  text-indent: 10%;
+  font-size: 380%;
   color: blue;
-  width: 99%;
+  width: 100%;
 }
 
 
@@ -194,12 +200,8 @@ p1{
 /* grid 100%*/
 .linha {
   width: 100%;
-  margin: auto;
-  overflow: auto;
-  padding: 5px 0;
 }
 .colunaser {
-  margin: 2px;
   float: left;
   color: blue;
 }
@@ -209,10 +211,10 @@ p1{
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
+  text-indent: 1%;
   padding-left: 10%;
-  padding-right: 2%;
-  font-size: 320%;
-  width: 86%;
+  font-size: 340%;
+  width: 90%;
   text-align: left;
   color: blue;
 }
@@ -222,10 +224,10 @@ p1{
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  padding-left: 12%;
-  padding-right: 2%;
-  font-size: 320%;
-  width: 88%;
+  text-indent: 1%;
+  padding-left: 11%;
+  font-size: 340%;
+  width: 92%;
   text-align: left;
 }
 
