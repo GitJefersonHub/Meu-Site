@@ -45,23 +45,25 @@ body.sobre {
   display: flex;
   background-color: rgb(248, 44, 44);
   width: 100%;
+  padding-right: 2%;
 }
 .logo {
   color: white;
   font-style: italic;
-  padding-left: 1%;
-  padding-right: 1%;
+  padding-left: 2%;
+  padding-right: 0%;
   text-decoration: underline;
 }
 .menu {
   list-style: none;
   margin: auto;
-  padding-left: 1%;
+  padding-left: 2%;
   padding-right: 2%;
   display: flex;
 }
 .menu li { 
-  padding: 1%
+padding-left: 2%;
+padding-right: 2%;
 }
 .menu li a {
   text-decoration: none;
@@ -75,10 +77,10 @@ body.sobre {
   font-family: Arial, Helvetica, sans-serif;
 }
 h1{
-  font-size: 390%;
+  font-size: 360%;
 }
 h2{
-  font-size: 370%;
+  font-size: 350%;
 }
 h3{
   font-size: 200%;
@@ -104,7 +106,7 @@ p{
   -ms-hyphens: auto;
   hyphens: auto;
   padding-left: 1%;
-  padding-right: 1%;
+  padding-right: 2%;
   text-align: justify;
   text-indent: 10%;
   font-size: 380%;
@@ -118,10 +120,10 @@ p1{
   -ms-hyphens: auto;
   hyphens: auto;
   padding-left: 1%;
-  padding-right: 1%;
+  padding-right: 2%;
   text-align: left;
   text-indent: 0%;
-  font-size: 350%;
+  font-size: 380%;
   color: yellow;
   width: 100%;
 }
