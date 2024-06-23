@@ -94,7 +94,7 @@ h3{
 /* Estilos para COLUNAS img */
 /* grid 100%*/
 .linha {
-  width: 200%;
+  width: 2000%;
   margin: auto;
   overflow: auto;
   padding: 0% 0;
@@ -127,8 +127,8 @@ h3{
   .ser2 {
   padding-left: 1%;
   padding-right: 1%;
-  width: 14%;
-  height: 14%;
+  width: 19%;
+  height: 19%;
   float:left;
   }
 }
@@ -138,19 +138,8 @@ h3{
   .ser3 {
   padding-left: 1%;
   padding-right: 1%;
-  width: 14%;
-  height: 14%;
-  float: left;
-  }
-}
-/* Estilos para IMAGENS */
-.ser {
-  background-image: url('   ');
-  .ser4 {
-  padding-left: 1%;
-  padding-right: 1%;
-  width: 14%;
-  height: 14%;
+  width: 18%;
+  height: 18%;
   float: left;
   }
 }
