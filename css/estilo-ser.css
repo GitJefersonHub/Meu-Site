@@ -94,30 +94,25 @@ h3{
 /* Estilos para COLUNAS img */
 /* grid 100%*/
 .linha {
-  width: 2000%;
-  margin: auto;
-  overflow: auto;
-  padding: 0% 0;
+  width: 200%;
+  overflow: auto
 }
 .colunaimgser {
-  margin: 0%;
   float: left;
   /* Para Android e iOS */
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  padding-left: 0%;
-  padding-right: 0%;
   width: 200%;
 }
 .ser {
   background-image: url('   ');
   .ser1 {
-  padding-left: 1%;
-  padding-right: 1%;
-  width: 30%;
-  height: 30%;
+  padding-left: 0%;
+  padding-right: 4px;
+  width: 26%;
+  height: 26%;
   float:inline-start;
   }
 }
@@ -125,10 +120,10 @@ h3{
 .ser {
   background-image: url('   ');
   .ser2 {
-  padding-left: 1%;
-  padding-right: 1%;
-  width: 19%;
-  height: 19%;
+  padding-left: 4px;
+  padding-right: 4px;
+  width: 16%;
+  height: 16%;
   float:left;
   }
 }
@@ -136,10 +131,10 @@ h3{
 .ser {
   background-image: url('   ');
   .ser3 {
-  padding-left: 1%;
-  padding-right: 1%;
-  width: 18%;
-  height: 18%;
+  padding-left: 4px;
+  padding-right: 4px;
+  width: 16%;
+  height: 16%;
   float: left;
   }
 }
@@ -147,10 +142,10 @@ h3{
 .ser {
   background-image: url('   ');
   .ser5 {
-  padding-left: 1%;
-  padding-right: 1%;
-  width: 14%;
-  height: 14%;
+  padding-left: 4px;
+  padding-right: 0%;
+  width: 12%;
+  height: 12%;
   float: left;
   }
 }
