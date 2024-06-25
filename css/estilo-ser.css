@@ -110,9 +110,9 @@ h3{
   background-image: url('   ');
   .ser1 {
   padding-left: 0%;
-  padding-right: 4px;
-  width: 26%;
-  height: 26%;
+  padding-right: 8px;
+  width: 28%;
+  height: 28%;
   float:inline-start;
   }
 }
@@ -120,10 +120,10 @@ h3{
 .ser {
   background-image: url('   ');
   .ser2 {
-  padding-left: 4px;
-  padding-right: 4px;
-  width: 16%;
-  height: 16%;
+  padding-left: 8px;
+  padding-right: 8px;
+  width: 17%;
+  height: 17%;
   float:left;
   }
 }
@@ -131,10 +131,10 @@ h3{
 .ser {
   background-image: url('   ');
   .ser3 {
-  padding-left: 4px;
+  padding-left: 8px;
   padding-right: 4px;
-  width: 16%;
-  height: 16%;
+  width: 17%;
+  height: 17%;
   float: left;
   }
 }
@@ -142,7 +142,7 @@ h3{
 .ser {
   background-image: url('   ');
   .ser5 {
-  padding-left: 4px;
+  padding-left: 8px;
   padding-right: 0%;
   width: 12%;
   height: 12%;
