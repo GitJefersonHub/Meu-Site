@@ -14,7 +14,7 @@
 }
 @media only screen and (min-width: 351px) and (max-width: 400px) {
   .containerser {
-    width: 380%;
+    width: 80%;
     padding: 20px;
   }
 }
@@ -38,7 +38,7 @@
 }
 @media only screen and (min-width: 551px) and (max-width: 640px) {
   .containerser {
-    width: 40%;
+    width: 240%;
     padding: 20px;
   }
 }
