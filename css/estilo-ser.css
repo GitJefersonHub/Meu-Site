@@ -1,32 +1,67 @@
-/* Para telas extra pequenas (celulares, menos de 480px) */
-@media only screen and (max-width: 480px) {
+/* Para telas pequenas (celulares, menos de 650px) */
+@media only screen and (max-width: 300px) {
   .containerser {
-    width: 480%;
+    width: 520%;
     padding: 10px;
   }
-}
-/* Para telas pequenas (celulares, menos de 640px) */
-@media only screen and (max-width: 640px) {
-  /* Estilos aplicados em telas de até 770px de largura */
-  .containerser {
-    width: 400%;
-    padding: 15px;
-  }
- }
 /* Para telas médias (tablets, 641px a 1024px) */
-@media only screen and (min-width: 641px) and (max-width: 1024px) {
+@media only screen and (min-width: 301px) and (max-width: 350px) {
   .containerser {
-    width: 200%;
+    width: 390%;
     padding: 20px;
   }
 }
-/* Para telas grandes (desktops, mais de 1025px) */
-@media only screen and (min-width: 1025px) {
+}
+@media only screen and (min-width: 351px) and (max-width: 400px) {
   .containerser {
-    width: 70%;
-    padding: 25px;
+    width: 346%;
+    padding: 20px;
   }
 }
+@media only screen and (min-width: 401px) and (max-width: 450px) {
+  .containerser {
+    width: 300%;
+    padding: 20px;
+  }
+}
+@media only screen and (min-width: 451px) and (max-width: 500px) {
+  .containerser {
+    width: 260%;
+    padding: 20px;
+  }
+}
+@media only screen and (min-width: 501px) and (max-width: 550px) {
+  .containerser {
+    width: 220%;
+    padding: 20px;
+  }
+}
+@media only screen and (min-width: 551px) and (max-width: 640px) {
+  .containerser {
+    width: 184%;
+    padding: 20px;
+  }
+}
+
+
+/* Para telas médias (tablets, 641px a 1024px) */
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .containerser {
+    width: 170%;
+    padding: 20px;
+  }
+}
+
+
+/* Para telas grandes (desktops, 1025px a 1200px) */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  .containerser {
+    width: 120%;
+    padding: 20px;
+  }
+}
+
+
 /* Para telas extra grandes (desktops grandes, mais de 1200px) */
 @media only screen and (min-width: 1200px) {
   .containerser {
@@ -34,6 +69,7 @@
     padding: 30px;
   }
 }
+
 
 
 /* Estilos para o BODY */
@@ -44,8 +80,8 @@ body.ser {
 .navbar {
   display: flex;
   background-color: rgb(248, 44, 44);
-  width: 100%;
   padding-right: 2%;
+  
 }
 .logo {
   color: white;
@@ -68,7 +104,6 @@ padding-right: 2%;
 .menu li a {
   text-decoration: none;
   color: yellow;
-  padding-right: 0%;
 }
 
 
@@ -85,7 +120,14 @@ h2{
 h3{
   padding-left: 1%;
   text-indent: 10%;
-  font-size: 340%;
+  font-size: 3.0em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+  display: block;
   color: black;
   width: 100%;
 }
@@ -94,6 +136,7 @@ h3{
 /* Estilos para COLUNAS img */
 /* grid 100%*/
 .linha {
+  height: 200%;
   width: 200%;
   overflow: auto
 }
@@ -105,6 +148,7 @@ h3{
   -ms-hyphens: auto;
   hyphens: auto;
   width: 200%;
+height: 200%;
 }
 .ser {
   background-image: url('   ');
@@ -268,5 +312,6 @@ footer {
   color: white;
   padding: 1%;
   font-size: 280%;
-  width: 100%;
+  
+  height: 100%;
 } 

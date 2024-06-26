@@ -1,39 +1,3 @@
-/* Para telas extra pequenas (celulares, menos de 480px) */
-@media only screen and (max-width: 480px) {
-  .containersobre {
-    width: 480%;
-    padding: 10px;
-  }
-}
-/* Para telas pequenas (celulares, menos de 640px) */
-@media only screen and (max-width: 640px) {
-  /* Estilos aplicados em telas de até 770px de largura */
-  .containersobre {
-    width: 400%;
-    padding: 15px;
-  }
- }
-/* Para telas médias (tablets, 641px a 1024px) */
-@media only screen and (min-width: 641px) and (max-width: 1024px) {
-  .containersobre {
-    width: 200%;
-    padding: 20px;
-  }
-}
-/* Para telas grandes (desktops, mais de 1025px) */
-@media only screen and (min-width: 1025px) {
-  .containersobre {
-    width: 70%;
-    padding: 25px;
-  }
-}
-/* Para telas extra grandes (desktops grandes, mais de 1200px) */
-@media only screen and (min-width: 1200px) {
-  .containersobre {
-    width: 95%;
-    padding: 30px;
-  }
-}
 
 
 /* Estilos para o BODY */
@@ -44,7 +8,6 @@ body.sobre {
 .navbar {
   display: flex;
   background-color: rgb(248, 44, 44);
-  width: 100%;
   padding-right: 2%;
 }
 .logo {
@@ -68,7 +31,6 @@ padding-right: 2%;
 .menu li a {
   text-decoration: none;
   color: yellow;
-  padding-right: 0%;
 }
 
 
@@ -111,7 +73,7 @@ p{
   text-indent: 10%;
   font-size: 380%;
   color: gold;
-  width: 100%;
+ 
 }
 p1{
   /* Para Android e iOS */
@@ -125,7 +87,7 @@ p1{
   text-indent: 0%;
   font-size: 380%;
   color: yellow;
-  width: 100%;
+ 
 }
 
 /* Estilos para RODAPÉ */
@@ -136,5 +98,5 @@ footer {
   color: white;
   padding: 1%;
   font-size: 280%;
-  width: 100%;
+ 
 } 
