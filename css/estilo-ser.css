@@ -1,44 +1,44 @@
 /* Para telas pequenas (celulares, menos de 650px) */
 @media only screen and (max-width: 300px) {
   .containerser {
-    width: 580%;
+    width: 520%;
     padding: 10px;
   }
 /* Para telas médias (tablets, 641px a 1024px) */
 @media only screen and (min-width: 301px) and (max-width: 350px) {
   .containerser {
-    width: 470%;
+    width: 420%;
     padding: 20px;
   }
 }
 }
 @media only screen and (min-width: 351px) and (max-width: 400px) {
   .containerser {
-    width: 410%;
+    width: 390%;
     padding: 20px;
   }
 }
 @media only screen and (min-width: 401px) and (max-width: 450px) {
   .containerser {
-    width: 380%;
+    width: 360%;
     padding: 20px;
   }
 }
 @media only screen and (min-width: 451px) and (max-width: 500px) {
   .containerser {
-    width: 340%;
+    width: 320%;
     padding: 20px;
   }
 }
 @media only screen and (min-width: 501px) and (max-width: 550px) {
   .containerser {
-    width: 290%;
+    width: 270%;
     padding: 20px;
   }
 }
 @media only screen and (min-width: 551px) and (max-width: 640px) {
   .containerser {
-    width: 260%;
+    width: 240%;
     padding: 20px;
   }
 }
