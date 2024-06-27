@@ -15,13 +15,13 @@
 /*S7 A9 pro*/
 @media only screen and (min-width: 351px) and (max-width: 400px) {
   .containerser {
-    width: 40%;
+    width: 394%;
     padding: 20px;
   }
 }
 @media only screen and (min-width: 401px) and (max-width: 450px) {
   .containerser {
-    width: 310%;
+    width: 320%;
     padding: 20px;
   }
 }
