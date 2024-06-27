@@ -4,30 +4,38 @@
     width: 520%;
     padding: 10px;
   }
-/* Para telas médias (tablets, 641px a 1024px) */
+}
+/*Para telas pequenas (Celulares)*/
 @media only screen and (min-width: 301px) and (max-width: 350px) {
   .containerser {
     width: 420%;
     padding: 20px;
   }
 }
-}
-/*S7 A9 pro*/
-@media only screen and (min-width: 351px) and (max-width: 400px) {
+/* Para telas pequenas(Galaxi S9 320px a 658px) */
+@media only screen and (min-width: 320px) and (max-width: 658px) {
   .containerser {
-    width: 394%;
+    width: 410%;
+    padding: 20px;
+  }
+}
+/*S7, A9 pro, J5*/
+/* Para telas (iPhone 12 Pro 390px a 844px) */
+@media only screen and (min-width: 390px) and (max-width: 844px) {
+  .containerser {
+    width: 396%;
     padding: 20px;
   }
 }
 @media only screen and (min-width: 401px) and (max-width: 450px) {
   .containerser {
-    width: 320%;
+    width: 330%;
     padding: 20px;
   }
 }
 @media only screen and (min-width: 451px) and (max-width: 500px) {
   .containerser {
-    width: 320%;
+    width: 310%;
     padding: 20px;
   }
 }
@@ -53,11 +61,35 @@
   }
 }
 
+/* Para telas grandes (Galaxi Tab S4 712px a 1138px) */
+@media only screen and (min-width: 712px) and (max-width: 1138px) {
+  .containerser {
+    width: 180%;
+    padding: 20px;
+  }
+}
+
+/* Para telas grandes (iPad Mini 768px a 1024px) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .containerser {
+    width: 170%;
+    padding: 20px;
+  }
+}
+
+/* Para telas grandes (iPad Air 820px a 1180px) */
+@media only screen and (min-width: 820px) and (max-width: 1180px) {
+  .containerser {
+    width: 160%;
+    padding: 20px;
+  }
+}
+
 
 /* Para telas grandes (desktops, 1025px a 1200px) */
-@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
   .containerser {
-    width: 120%;
+    width: 130%;
     padding: 20px;
   }
 }
@@ -304,5 +336,4 @@ footer {
   color: white;
   padding: 1%;
   font-size: 280%;
-  width: 100%;
 } 
