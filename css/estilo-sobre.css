@@ -15,7 +15,7 @@
 /* Para telas médias (tablets, 641px a 1024px) */
 @media only screen and (min-width: 641px) and (max-width: 1024px) {
   .containersobre {
-    width: 120%;
+    width: 80%;
     padding: 20px;
   }
 }
