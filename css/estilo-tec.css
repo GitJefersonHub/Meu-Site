@@ -65,7 +65,7 @@ p{
   text-indent: 10%;
   font-size: 380%;
   color: silver;
- width: 90%;
+ width: 100%;
 }
 p1{
 /* Para Android e iOS */
@@ -78,7 +78,7 @@ p1{
   text-indent: 10%;
   font-size: 380%;
   color: gold;
-  width: 90%;
+  width: 100%;
 }
 
 
@@ -182,5 +182,6 @@ footer {
   color: white;
   padding: 1%;
   font-size: 280%;
+  width: 100%;
   
 } 

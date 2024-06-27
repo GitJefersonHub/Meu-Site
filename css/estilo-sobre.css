@@ -45,7 +45,7 @@ h2{
   font-size: 350%;
 }
 h3{
-  font-size: 200%;
+  font-size: 340%;
 }
 
 
@@ -73,6 +73,7 @@ p{
   text-indent: 10%;
   font-size: 380%;
   color: gold;
+  width: 100%;
  
 }
 p1{
@@ -87,6 +88,7 @@ p1{
   text-indent: 0%;
   font-size: 380%;
   color: yellow;
+  width: 100%;
  
 }
 
@@ -98,5 +100,6 @@ footer {
   color: white;
   padding: 1%;
   font-size: 280%;
+  width: 100%;
  
 } 

@@ -82,7 +82,6 @@ body.ser {
   display: flex;
   background-color: rgb(248, 44, 44);
   padding-right: 2%;
-  
 }
 .logo {
   color: white;
@@ -121,16 +120,8 @@ h2{
 h3{
   padding-left: 1%;
   text-indent: 10%;
-  font-size: 3.0em;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: bold;
-  unicode-bidi: isolate;
-  display: block;
+  font-size: 340%;
   color: black;
-  width: 100%;
 }
 
 
@@ -313,6 +304,5 @@ footer {
   color: white;
   padding: 1%;
   font-size: 280%;
-  
-  height: 100%;
+  width: 100%;
 } 
