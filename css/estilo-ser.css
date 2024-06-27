@@ -12,6 +12,18 @@
     padding: 15px;
   }
 }
+
+
+/* Para telas médias (tablets, 641px a 1024px) */
+@media only screen and (min-width: 540px) and (max-width: 720px) {
+  .containerser {
+    width: 114%;
+    padding: 20px;
+  }
+}
+
+
+
 /* Para telas médias (tablets, 641px a 1024px) */
 @media only screen and (min-width: 641px) and (max-width: 1024px) {
   .containerser {
@@ -19,6 +31,9 @@
     padding: 20px;
   }
 }
+
+
+
 /* Para telas grandes (desktops, mais de 1025px) */
 @media only screen and (min-width: 1025px) {
   .containerser {
