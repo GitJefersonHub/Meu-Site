@@ -1,32 +1,100 @@
-/* Para telas extra pequenas (celulares, menos de 480px) */
-@media only screen and (max-width: 480px) {
+/* Para telas pequenas (celulares, menos de 650px) */
+@media only screen and (max-width: 300px) {
   .containerser {
-    width: 480%;
+    width: 520%;
     padding: 10px;
   }
 }
-/* Para telas pequenas (celulares, menos de 640px) */
-@media only screen and (max-width: 640px) {
-  /* Estilos aplicados em telas de até 770px de largura */
+/*Para telas pequenas (Celulares)*/
+@media only screen and (min-width: 301px) and (max-width: 350px) {
   .containerser {
-    width: 400%;
-    padding: 15px;
-  }
- }
-/* Para telas médias (tablets, 641px a 1024px) */
-@media only screen and (min-width: 641px) and (max-width: 1024px) {
-  .containerser {
-    width: 200%;
+    width: 420%;
     padding: 20px;
   }
 }
-/* Para telas grandes (desktops, mais de 1025px) */
-@media only screen and (min-width: 1025px) {
+/* Para telas pequenas(Galaxi S9 320px a 658px) */
+@media only screen and (min-width: 320px) and (max-width: 658px) {
   .containerser {
-    width: 70%;
-    padding: 25px;
+    width: 410%;
+    padding: 20px;
   }
 }
+/*S7, A9 pro, J5*/
+/* Para telas (iPhone 12 Pro 390px a 844px) */
+@media only screen and (min-width: 390px) and (max-width: 844px) {
+  .containerser {
+    width: 396%;
+    padding: 20px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 450px) {
+  .containerser {
+    width: 330%;
+    padding: 20px;
+  }
+}
+@media only screen and (min-width: 451px) and (max-width: 500px) {
+  .containerser {
+    width: 310%;
+    padding: 20px;
+  }
+}
+@media only screen and (min-width: 501px) and (max-width: 550px) {
+  .containerser {
+    width: 280%;
+    padding: 20px;
+  }
+}
+@media only screen and (min-width: 551px) and (max-width: 640px) {
+  .containerser {
+    width: 240%;
+    padding: 20px;
+  }
+}
+
+
+/* Para telas médias (tablets, 641px a 1024px) */
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .containerser {
+    width: 290%;
+    padding: 20px;
+  }
+}
+
+/* Para telas grandes (Galaxi Tab S4 712px a 1138px) */
+@media only screen and (min-width: 712px) and (max-width: 1138px) {
+  .containerser {
+    width: 180%;
+    padding: 20px;
+  }
+}
+
+/* Para telas grandes (iPad Mini 768px a 1024px) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .containerser {
+    width: 170%;
+    padding: 20px;
+  }
+}
+
+/* Para telas grandes (iPad Air 820px a 1180px) */
+@media only screen and (min-width: 820px) and (max-width: 1180px) {
+  .containerser {
+    width: 160%;
+    padding: 20px;
+  }
+}
+
+
+/* Para telas grandes (desktops, 1025px a 1200px) */
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+  .containerser {
+    width: 130%;
+    padding: 20px;
+  }
+}
+
+
 /* Para telas extra grandes (desktops grandes, mais de 1200px) */
 @media only screen and (min-width: 1200px) {
   .containerser {
@@ -34,6 +102,7 @@
     padding: 30px;
   }
 }
+
 
 
 /* Estilos para o BODY */
@@ -44,7 +113,6 @@ body.ser {
 .navbar {
   display: flex;
   background-color: rgb(248, 44, 44);
-  width: 100%;
   padding-right: 2%;
 }
 .logo {
@@ -68,7 +136,6 @@ padding-right: 2%;
 .menu li a {
   text-decoration: none;
   color: yellow;
-  padding-right: 0%;
 }
 
 
@@ -87,13 +154,13 @@ h3{
   text-indent: 10%;
   font-size: 340%;
   color: black;
-  width: 100%;
 }
 
 
 /* Estilos para COLUNAS img */
 /* grid 100%*/
 .linha {
+  height: 200%;
   width: 200%;
   overflow: auto
 }
@@ -105,6 +172,7 @@ h3{
   -ms-hyphens: auto;
   hyphens: auto;
   width: 200%;
+height: 200%;
 }
 .ser {
   background-image: url('   ');
@@ -268,5 +336,4 @@ footer {
   color: white;
   padding: 1%;
   font-size: 280%;
-  width: 100%;
 } 

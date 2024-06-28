@@ -1,39 +1,3 @@
-/* Para telas extra pequenas (celulares, menos de 480px) */
-@media only screen and (max-width: 480px) {
-  .containertec {
-    width: 480%;
-    padding: 10px;
-  }
-}
-/* Para telas pequenas (celulares, menos de 640px) */
-@media only screen and (max-width: 640px) {
-  /* Estilos aplicados em telas de até 770px de largura */
-  .containertec {
-    width: 400%;
-    padding: 15px;
-  }
- }
-/* Para telas médias (tablets, 641px a 1024px) */
-@media only screen and (min-width: 641px) and (max-width: 1024px) {
-  .containertec {
-    width: 200%;
-    padding: 20px;
-  }
-}
-/* Para telas grandes (desktops, mais de 1025px) */
-@media only screen and (min-width: 1025px) {
-  .containertec {
-    width: 70%;
-    padding: 25px;
-  }
-}
-/* Para telas extra grandes (desktops grandes, mais de 1200px) */
-@media only screen and (min-width: 1200px) {
-  .containertec {
-    width: 95%;
-    padding: 30px;
-  }
-}
 
 
 /* Estilos para o BODY */
@@ -44,7 +8,6 @@ body.tec {
 .navbar {
   display: flex;
   background-color: rgb(248, 44, 44);
-  width: 100%;
   padding-right: 2%;
 }
 .logo {
@@ -68,7 +31,6 @@ padding-right: 2%;
 .menu li a {
   text-decoration: none;
   color: yellow;
-  padding-right: 0%;
 }
 
 
@@ -87,7 +49,7 @@ h3{
   text-indent: 10%;
   font-size: 340%;
   color: gold;
-  width: 100%;
+ 
 }
 
 
@@ -104,7 +66,7 @@ p{
   text-indent: 10%;
   font-size: 380%;
   color: silver;
-  width: 100%;
+  
 }
 p1{
 /* Para Android e iOS */
@@ -130,7 +92,7 @@ p1{
   padding: 0% 0;
 }
 .colunatec {
-  width: 100%;
+
   float: left;
   color: white;
 }
@@ -141,7 +103,7 @@ p1{
   -ms-hyphens: auto;
   hyphens: auto;
   font-size: 220%;
-  width: 48%;
+  width: 44%;
   text-align: left;
   color: white;
   padding-left: 2%;
@@ -153,7 +115,7 @@ p1{
   -ms-hyphens: auto;
   hyphens: auto;
   font-size: 220%;
-  width: 50%;
+  width: 44%;
   text-align: left;
   color: white;
   padding-right: 0%;
@@ -168,7 +130,7 @@ p1{
   padding-left: 10%;
   font-size: 360%;
   color: silver;
-  width: 92%;
+  width: 88%;
 }
 
 
@@ -184,7 +146,7 @@ p1{
   font-size: 700%; /* Tamanho da fonte */
   margin: auto;
   cursor: pointer; /* Cursor de mão ao passar o mouse */
-  width: 95%;
+  width: 94%;
 }
 .btn-estilizado2 {
   background-color: rgb(81, 219, 81); /* Cor de fundo do botão */
@@ -197,7 +159,7 @@ p1{
   font-size: 700%; /* Tamanho da fonte */
   margin: auto;
   cursor: pointer; /* Cursor de mão ao passar o mouse */
-  width: 95%;
+  width: 94%;
 }
 .btn-estilizado3 {
   background-color: rgb(90, 90, 245); /* Cor de fundo do botão */
@@ -210,7 +172,7 @@ p1{
   font-size: 700%; /* Tamanho da fonte */
   margin: auto;
   cursor: pointer; /* Cursor de mão ao passar o mouse */
-  width: 95%;
+  width: 94%;
 }
 
 /* Estilos para RODAPÉ */
@@ -221,5 +183,4 @@ footer {
   color: white;
   padding: 1%;
   font-size: 280%;
-  width: 100%;
 } 
