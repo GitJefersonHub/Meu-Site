@@ -149,6 +149,7 @@ body.ser {
   display: flex;
   background-color: rgb(248, 44, 44);
   padding-right: 2%;
+  overflow: auto;
 }
 .logo {
   color: white;
@@ -179,15 +180,15 @@ padding-right: 2%;
   font-family: Arial, Helvetica, sans-serif;
 }
 h1{
-  font-size: 360%;
+  font-size: 350%;
 }
 h2{
-  font-size: 350%;
+  font-size: 340%;
 }
 h3{
   padding-left: 1%;
   text-indent: 10%;
-  font-size: 340%;
+  font-size: 330%;
   color: black;
 }
 
@@ -197,6 +198,7 @@ h3{
 .linha {
   width: 200%;
   overflow: auto
+
 }
 .colunaimgser {
   float: left;
@@ -206,6 +208,7 @@ h3{
   -ms-hyphens: auto;
   hyphens: auto;
   width: 200%;
+  overflow: auto;
 }
 .ser {
   background-image: url('   ');
@@ -260,7 +263,7 @@ p{
   -ms-hyphens: auto;
   hyphens: auto;
   padding-left: 1%;
-  padding-right: 2%;
+  padding-right: 1%;
   text-align: justify;
   text-indent: 10%;
   font-size: 380%;
@@ -274,7 +277,7 @@ p1{
   -ms-hyphens: auto;
   hyphens: auto;
   padding-left: 1%;
-  padding-right: 2%;
+  padding-right: 1%;
   text-indent: 10%;
   font-size: 380%;
   color: blue;
@@ -330,7 +333,7 @@ p1{
   font-size: 700%; /* Tamanho da fonte */
   margin: auto;
   cursor: pointer; /* Cursor de mão ao passar o mouse */
-  width: 95%;
+  width: 96%;
 }
 .btn-estilizado2 {
   background-color: rgb(100, 209, 100); /* Cor de fundo do botão */
@@ -343,7 +346,7 @@ p1{
   font-size: 700%; /* Tamanho da fonte */
   margin: auto;
   cursor: pointer; /* Cursor de mão ao passar o mouse */
-  width: 95%;
+  width: 96%;
 }
 /* Estilos para BOTÃO */
 .btn-estilizado {
@@ -357,7 +360,7 @@ p1{
   font-size: 700%; /* Tamanho da fonte */
   margin: auto;
   cursor: pointer; /* Cursor de mão ao passar o mouse */
-  width: 95%;
+  width: 96%;
 }
 
 
@@ -369,4 +372,5 @@ footer {
   color: white;
   padding: 1%;
   font-size: 280%;
+  overflow: auto;
 } 
