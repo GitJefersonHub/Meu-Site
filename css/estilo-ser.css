@@ -1,39 +1,143 @@
-/* Para telas extra pequenas (celulares, menos de 480px) */
-@media only screen and (max-width: 480px) {
+/* Para telas pequenas (celulares, menos de 300px) */
+@media only screen and (max-width: 300px) {
   .containerser {
-    width: 480%;
+    width: 530%;
     padding: 10px;
   }
 }
-/* Para telas pequenas (celulares, menos de 640px) */
-@media only screen and (max-width: 640px) {
-  /* Estilos aplicados em telas de até 770px de largura */
+/*Para telas pequenas (301px a 350px)*/
+@media only screen and (min-width: 301px) and (max-width: 350px) {
   .containerser {
-    width: 400%;
-    padding: 15px;
+    width: 420%;
+    padding: 10px;
   }
- }
-/* Para telas médias (tablets, 641px a 1024px) */
-@media only screen and (min-width: 641px) and (max-width: 1024px) {
+}
+/* Para telas pequenas(Galaxy S9 /Galaxy Z Fold 5 320px a 658px) */
+@media only screen and (min-width: 320px) and (max-width: 658px) {
   .containerser {
-    width: 200%;
+    width: 390%;
+    padding: 10px;
+  }
+}
+/* Para telas pequenas(Galaxy note !! 360px a 640px) */
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+  .containerser {
+    width: 370%;
+    padding: 10px;
+  }
+}
+/* Para telas pequenas (iPhone 12 Pro, S7, A9 PRO, J5 390px a 844px) */
+@media only screen and (min-width: 390px) and (max-width: 844px) {
+  .containerser {
+    width: 396%;
+    padding: 10px;
+  }
+}
+/* Para telas pequenas (LG Optimus L70, 384px a 640px) */
+@media only screen and (min-width: 384px) and (max-width: 640px) {
+  .containerser {
+    width: 340%;
+    padding: 10px;
+  }
+}
+/* Para telas pequenas (iPhone SE, 375px a 667px) */
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+  .containerser {
+    width: 340%;
+    padding: 10px;
+  }
+}
+/*Para telas pequenas (Galaxy A51/71 /iPhone 6/7/8 Plus 401px a 450px)*/
+@media only screen and (min-width: 401px) and (max-width: 450px) {
+  .containerser {
+    width: 320%;
+    padding: 10px;
+  }
+}
+/* Para telas pequenas () */
+@media only screen and (min-width: 451px) and (max-width: 500px) {
+  .containerser {
+    width: 310%;
+    padding: 10px;
+  }
+}
+/* Para telas pequenas (Nokia N9 480px a 854px) */
+@media only screen and (min-width: 480px) and (max-width: 854px) {
+  .containerser {
+    width: 270%;
+    padding: 10px;
+  }
+}
+
+/* Para telas médias (501px a 550px) */
+@media only screen and (min-width: 501px) and (max-width: 550px) {
+  .containerser {
+    width: 240%;
     padding: 20px;
   }
 }
-/* Para telas grandes (desktops, mais de 1025px) */
-@media only screen and (min-width: 1025px) {
+/* Para telas médias (501px a 640px) */
+@media only screen and (min-width: 551px) and (max-width: 640px) {
   .containerser {
-    width: 70%;
-    padding: 25px;
+    width: 240%;
+    padding: 20px;
   }
 }
-/* Para telas extra grandes (desktops grandes, mais de 1200px) teste git*/
-@media only screen and (min-width: 1200px) {
+/* Para telas médias(Tablets, 600px a 1024px) */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
   .containerser {
-    width: 95%;
+    width: 210%;
+    padding: 20px;
+  }
+}
+/* Para telas médias (tablets, 641px a 1024px) */
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .containerser {
+    width: 290%;
+    padding: 20px;
+  }
+}
+
+/* Para telas médias (Galaxi Tab S4 712px a 1138px) */
+@media only screen and (min-width: 712px) and (max-width: 1138px) {
+  .containerser {
+    width: 180%;
+    padding: 20px;
+  }
+}
+
+/* Para telas grandes (iPad Mini 768px a 1024px) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .containerser {
+    width: 170%;
     padding: 30px;
   }
 }
+
+/* Para telas grandes (iPad Air 820px a 1180px) */
+@media only screen and (min-width: 820px) and (max-width: 1180px) {
+  .containerser {
+    width: 160%;
+    padding: 30px;
+  }
+}
+
+/* Para telas grandes (desktops, 1025px a 1200px) */
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+  .containerser {
+    width: 130%;
+    padding: 30px;
+  }
+}
+
+/* Para telas extra grandes (desktops grandes, mais de 1200px) */
+@media only screen and (min-width: 1200px) {
+  .containerser {
+    width: 94%;
+    padding: 40px;
+  }
+}
+
 
 
 /* Estilos para o BODY */
@@ -44,8 +148,8 @@ body.ser {
 .navbar {
   display: flex;
   background-color: rgb(248, 44, 44);
-  width: 100%;
   padding-right: 2%;
+  overflow: auto;
 }
 .logo {
   color: white;
@@ -68,7 +172,6 @@ padding-right: 2%;
 .menu li a {
   text-decoration: none;
   color: yellow;
-  padding-right: 0%;
 }
 
 
@@ -77,17 +180,16 @@ padding-right: 2%;
   font-family: Arial, Helvetica, sans-serif;
 }
 h1{
-  font-size: 360%;
+  font-size: 310%;
 }
 h2{
-  font-size: 350%;
+  font-size: 300%;
 }
 h3{
   padding-left: 1%;
   text-indent: 10%;
-  font-size: 340%;
+  font-size: 290%;
   color: black;
-  width: 100%;
 }
 
 
@@ -96,6 +198,7 @@ h3{
 .linha {
   width: 200%;
   overflow: auto
+
 }
 .colunaimgser {
   float: left;
@@ -105,14 +208,15 @@ h3{
   -ms-hyphens: auto;
   hyphens: auto;
   width: 200%;
+  overflow: auto;
 }
 .ser {
   background-image: url('   ');
   .ser1 {
   padding-left: 0%;
   padding-right: 8px;
-  width: 28%;
-  height: 28%;
+  width: 26%;
+  height: 26%;
   float:inline-start;
   }
 }
@@ -144,8 +248,8 @@ h3{
   .ser5 {
   padding-left: 8px;
   padding-right: 0%;
-  width: 12%;
-  height: 12%;
+  width: 17%;
+  height: 17%;
   float: left;
   }
 }
@@ -212,7 +316,7 @@ p1{
   text-indent: 1%;
   padding-left: 11%;
   font-size: 340%;
-  width: 92%;
+  width: 90%;
   text-align: left;
 }
 
@@ -268,5 +372,5 @@ footer {
   color: white;
   padding: 1%;
   font-size: 280%;
-  width: 100%;
+  overflow: auto;
 } 
