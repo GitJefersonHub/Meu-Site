@@ -212,7 +212,7 @@ h3{
 }
 .ser {
   background-image: url('   ');
-  .ser1 {
+  .logoSFV {
   padding-left: 0%;
   padding-right: 8px;
   width: 26%;
@@ -223,7 +223,7 @@ h3{
 /* Estilos para IMAGENS */
 .ser {
   background-image: url('   ');
-  .ser2 {
+  .logodivulg {
   padding-left: 8px;
   padding-right: 8px;
   width: 17%;
@@ -234,7 +234,7 @@ h3{
 /* Estilos para IMAGENS */
 .ser {
   background-image: url('   ');
-  .ser3 {
+  .logopagamentos {
   padding-left: 8px;
   padding-right: 4px;
   width: 17%;
@@ -245,9 +245,32 @@ h3{
 /* Estilos para IMAGENS */
 .ser {
   background-image: url('   ');
-  .ser5 {
+  .logoaçai {
   padding-left: 8px;
   padding-right: 0%;
+  width: 17%;
+  height: 17%;
+  float: left;
+  }
+}
+
+/* Estilos para IMAGENS */
+.ser {
+  background-image: url('   ');
+  .logoescolatec {
+  padding-left: 8px;
+  padding-right: 0%;
+  width: 17%;
+  height: 17%;
+  float: left;
+  }
+}
+/* Estilos para IMAGENS */
+.ser {
+  background-image: url('   ');
+  .logosalao {
+  padding-left: 0%;
+  padding-right: 8px;
   width: 17%;
   height: 17%;
   float: left;
