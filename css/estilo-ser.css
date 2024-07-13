@@ -359,6 +359,19 @@ p1{
   color: blue;
   width: 100%;
 }
+p2{
+  /* Para Android e iOS */
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  padding-left: 1%;
+  padding-right: 2%;
+  text-indent: 10%;
+  font-size: 380%;
+  color: red;
+  width: 100%;
+}
 
 
 /* Estilos para COLUNAS lista*/
