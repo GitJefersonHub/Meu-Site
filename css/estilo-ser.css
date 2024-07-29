@@ -304,8 +304,7 @@ h3{
   .kitbanheiroporta {
   padding-left: 8px;
   padding-right: 8px;
-  width: 34%;
-  height: 34%;
+  width: 32%;
   float: left;
   }
 }
@@ -315,18 +314,16 @@ h3{
   .kitbanheirosanitario {
   padding-left: 8px;
   padding-right: 8px;
-  width: 34%;
-  height: 34%;
+  width: 32%;
   float: left;
   }
 }
 .ser {
   background-image: url('   ');
-  .logoadvertencia {
+  .kitsilencio {
   padding-left: 8px;
   padding-right: 8px;
-  width: 17%;
-  height: 17%;
+  width: 32%;
   float: left;
   }
 }
